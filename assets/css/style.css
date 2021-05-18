@@ -95,7 +95,7 @@ button:hover {
 
 .btn {
     display: inline-block;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-right: 0px;
     
@@ -147,7 +147,7 @@ button:hover {
         } 
 
 
-    .nav-links li, .btn {
+    .nav-links li {
         opacity: 0;
     }
 
