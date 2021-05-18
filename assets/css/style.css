@@ -6,6 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     width: 100%;
@@ -13,8 +16,9 @@ body {
     background: rgba(38, 38, 38, 0.92);
     overflow-x: hidden;  
     position: relative;
+    font-family: "Roboto", sans-serif;
 }
-
+/* The Hero Image */
 .container {
     width: 55%;
     position: relative;
@@ -30,6 +34,7 @@ body {
     bottom: 0;
     z-index: -10;
 }
+/*Nav bar */
 
 header {
     display: flex;
@@ -77,7 +82,7 @@ header {
 }
 
 button {
-    width: 100px;
+    width: 150px;
     height: 35px;
     padding: 0px 14px;
     border-radius: 20px;
@@ -126,7 +131,7 @@ button:hover {
         padding-left: 2px;
     }
 }
-
+/* for the burger menu to appear and animate on click */
 @media screen and (max-width: 831px){
     body {
         overflow-x: hidden;
@@ -199,4 +204,51 @@ button:hover {
         opacity: 1;
         transform: translateX(0px);
     }
+}
+
+/* main content on the home page */
+
+.container-1{
+    background-color: rgba(255, 153, 0, 0.2);
+    width: 40%;
+    height: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgb(38, 38, 38);
+    border-radius: 30px;
+}
+
+.heading {
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: center;
+    margin: 12px 15px;
+    padding: 8px 12px;
+    color: rgba(255, 153, 0, 1);
+}
+
+.title {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    color: rgba(194, 194, 194, 1);
+    margin-top: 0;
+}
+
+.discribe {
+    color: rgba(194, 194, 194, 1);
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#planBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1000px;
+    
+}
+.planbtn {
+    width: 150px;
+    height: 100px;
 }
