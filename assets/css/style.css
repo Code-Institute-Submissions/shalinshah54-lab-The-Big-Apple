@@ -35,13 +35,13 @@ header {
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 5%;
     z-index: 10;
 }
 
 .logo {
-    margin: 0 10%;
-    padding: 0 10%;
+    margin: 0 5%;
+    padding: 0 5%;
     width: 100px;
     height: 100px;
 }
@@ -103,8 +103,8 @@ button:hover {
 
 .burger {
     position: absolute;
-    top: 32px;
-    right: 40px;
+    top: 150px;
+    right: -16px;
     display: none;
 
 } 
@@ -116,7 +116,7 @@ button:hover {
     background-color: rgba(194, 194, 194, 1);
 }
 
-@media screen and (max-width: 910px){
+@media screen and (max-width: 950px){
     .logo {
         margin: 0 5%;
         padding: 0 5%;
@@ -131,31 +131,47 @@ button:hover {
     body {
         overflow-x: hidden;
     }
-    .navbar {
+    .nav-links{
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: -71px;
+        right: -80px;
         height: 100vh;
         background-color: rgb(38, 38, 38);
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        width: 100%;
         transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        } 
 
-    } 
+
+    .nav-links li, .btn {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+        position: absolute;
+        top: -16px;
+        right: -10px;
+        z-index: 10;
+        cursor: pointer;
+    }
+
    .btn {
         position: absolute;
-        top: 500px;
-        right: 25px;
-        margin: 15px;
-        padding: 15px;
+        top: 473px;
+        right: 112px;
+        margin: 10px;
+        padding: 10px;
     }
 
     button {
-        width: 400px;
-        height: 35px;
-        padding: 0px 14px;
+        width: 250px;
+        height: 30px;
+        padding: 0px 10px;
         border-radius: 20px;
         box-shadow: 2px 4px 10px rgba(38, 38, 38, 0.92);
         background: rgba(255, 153, 0, 1);
@@ -167,7 +183,20 @@ button:hover {
         background: rgba(255, 153, 0, 0.7);
         transform: scale(1.12);
     } 
-    .burger {
-        display: inline-block;
+    
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
     }
 }
