@@ -327,8 +327,8 @@ span {
 /* neighborhood page */
 
 .underline {
-    border-bottom: 1px solid transparent;
-    box-shadow: 20px 0 20px rgba(255, 153, 0, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.199);
+    box-shadow: 12px 0 10px rgba(255, 153, 0, 1);
 }
 
 .img-box {
@@ -363,5 +363,145 @@ span {
 }
 
 .mh-para {
+    color: rgb(150, 150, 150);
+}
+
+.img-box {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 15px;
+    margin: 85px 30px;
+}
+
+.qn {
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     border-radius: 15px;
+}
+
+.text-box {
+    margin-top: 75px;
+}
+
+.qn-text {
+    color: rgba(194, 194, 194, 1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 0;
+    font-weight: 300;
+    text-align: start;
+}
+
+.qn-para {
+    color: rgb(150, 150, 150);
+}
+
+.img-box {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 15px;
+    margin: 85px 30px;
+}
+
+.bk {
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     border-radius: 15px;
+}
+
+.text-box {
+    margin-top: 75px;
+}
+
+.bk-text {
+    color: rgba(194, 194, 194, 1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 0;
+    font-weight: 300;
+    text-align: start;
+}
+
+.bk-para {
+    color: rgb(150, 150, 150);
+}
+
+.img-box {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 15px;
+    margin: 85px 30px;
+}
+
+.bx {
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     border-radius: 15px;
+}
+
+.text-box {
+    margin-top: 75px;
+}
+
+.bx-text {
+    color: rgba(194, 194, 194, 1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 0;
+    font-weight: 300;
+    text-align: start;
+}
+
+.bx-para {
+    color: rgb(150, 150, 150);
+}
+
+.img-box {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 15px;
+    margin: 85px 30px;
+}
+
+.si {
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     border-radius: 15px;
+}
+
+.text-box {
+    margin-top: 75px;
+}
+
+.si-text {
+    color: rgba(194, 194, 194, 1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 0;
+    font-weight: 300;
+    text-align: start;
+}
+
+.si-para {
     color: rgb(150, 150, 150);
 }
