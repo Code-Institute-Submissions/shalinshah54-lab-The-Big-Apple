@@ -256,7 +256,7 @@ button:hover {
 
 /* main content on the home page */
 
-.container-1{
+.container{
     background-color: rgba(255, 153, 0, 0.014);
     width: 35%;
     height: 60%;
@@ -274,8 +274,9 @@ button:hover {
     color: rgba(255, 153, 0, 1);
 }
 
-.title {
-    letter-spacing: 1px;
+.heading-title {
+    font-size: 1.10em;
+    letter-spacing: 2px;
     word-spacing: 2px;
     text-align: center;
     color: rgba(194, 194, 194, 1);
@@ -283,17 +284,18 @@ button:hover {
 }
 
 .discribe {
+    font-size: 1em;
     color: rgba(194, 194, 194, 1);
     font-weight: 300;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 span {
     color: rgba(255, 153, 0, 1);
 }
 
 #planBtn {
-    display: fixed;
+    display: flex;
     justify-content: center;
     align-items: center;
     left: 1000px;
@@ -311,7 +313,26 @@ span {
     margin-top: 100px;
     width: 100%;
     min-height: 75vh;
-    background-color: green;
+}
+
+.att-title {
+    color: rgba(194, 194, 194, 1);
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
+}
+
+.att-line {
+    position: absolute;
+    top: 725px;
+    left: 100px;
+    width: 100px;
+    height: 3px;
+    border-radius: 18px;
+    background-color: rgba(255, 153, 0, 1);
 }
 
 
@@ -320,15 +341,53 @@ span {
     margin-top: 40px;
     width: 100%;
     min-width: 75vh;
-    background-color: red;
 }
 
+.plan-title {
+    color: rgba(194, 194, 194, 1);
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
+}
 
+.plan-line {
+    position: absolute;
+    top: 1225px;
+    left: 100px;
+    width: 30px;
+    height: 3px;
+    border-radius: 18px;
+    background-color: rgba(255, 153, 0, 1);
+}
 /* neighborhood page */
 
 .underline {
     border-bottom: 1px solid rgba(255, 255, 255, 0.199);
     box-shadow: 12px 0 10px rgba(255, 153, 0, 1);
+}
+
+.title {
+    color: rgba(194, 194, 194, 1);
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
+
+}
+
+.line {
+    position: absolute;
+    top: 225px;
+    left: 100px;
+    width: 100px;
+    height: 3px;
+    border-radius: 18px;
+    background-color: rgba(255, 153, 0, 1);
 }
 
 .img-box {
