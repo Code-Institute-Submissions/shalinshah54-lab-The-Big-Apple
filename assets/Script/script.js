@@ -16,7 +16,9 @@ const navSlide = () => {
           index / 7 + 0.5}s`;
       }
     });
+    //burger animation close btn
+     burger.classList.toggle('closebtn');
   });
-};
+}
 
 navSlide();

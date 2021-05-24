@@ -121,6 +121,7 @@ button:hover {
     height: 3px;
     margin: 7px;
     background-color: rgba(194, 194, 194, 1);
+    transition: all 0.5s ease;
 }
 
 @media screen and (max-width: 950px){
@@ -254,9 +255,19 @@ button:hover {
     }
 }
 
+.closebtn .line1 {
+       transform: rotate(-45deg) translate(-6px, 7px);
+}
+.closebtn .line2{
+       opacity: 0;
+}
+.closebtn .line3{
+       transform: rotate(45deg) translate(-6px, -9px);
+}
+
 /* main content on the home page */
 
-.container{
+.container-main{
     background-color: rgba(255, 153, 0, 0.014);
     width: 35%;
     height: 60%;
@@ -308,11 +319,13 @@ span {
 }
 
 /* attraction scroll down page  */
+
+
 #attraction, #plan {
     flex-direction: column;
     margin-top: 100px;
     width: 100%;
-    min-height: 75vh;
+    min-height: 85vh;
 }
 
 .att-title {
@@ -333,6 +346,17 @@ span {
     height: 3px;
     border-radius: 18px;
     background-color: rgba(255, 153, 0, 1);
+}
+
+.att-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 200px;
+    flex-direction: column;
 }
 
 
