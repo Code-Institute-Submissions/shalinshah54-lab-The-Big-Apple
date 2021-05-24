@@ -28,7 +28,7 @@
           <li><a class="nav-items" href="#attraction">Attraction</a></li>
           <li><a class="nav-items" href="#plan">Plan</a></li>
         </ul> 
-        <a id="signUpBtn" class="btn nav-items" href="#"><button>Sign Up</button></a>
+        <a id="signUpBtn" class="btn nav-items" href="#"><button class="sign-btn">Sign Up</button></a>
       <!--Burger Menu-->
       <div class="burger clostbtn">
         <div class="line1"></div>
@@ -44,7 +44,7 @@
       <p class="discribe">Need family fun this summer come explore <span>The New York City.</span>
         With endless history, diverse ethnicity, different varieties of food, 
         sightseeing, shopping and many more...</p>
-        <a id="planBtn" class="btn planbtn" href="#plan"><button>Plan Now</button></a>  
+        <a id="planBtn" class="btn planbtn" href="#plan"><button class="btn-pl">Plan Now</button></a>  
       </div>
 
 
@@ -56,25 +56,44 @@
      <section id="attraction" class="attslide">
        <div class="att-title">Attraction</div>
        <div class="att-line"></div>
-       <div class="card att-items">
-        <img src="/assets/images/bb.jpg" class="card-img-top" alt="brooklyn bridge">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-      </div>
-     <div class="card att-items">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="carousel-inner slider">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/assets/images/bb.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/assets/images/ts.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/images/ts.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    <!--   <div class="card att-items">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>  -->
-      </div>
-    </div>
      </section>
      
      <!--Plan and Map section-->
