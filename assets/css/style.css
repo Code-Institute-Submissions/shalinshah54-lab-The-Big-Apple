@@ -28,11 +28,11 @@ body {
 .hero-img {
     position: absolute;
     width: 55%;
-    height: 100vh;
+    height: 115vh;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 700px;
+    left: 600px;
     z-index: -10;
 }
 /*Nav bar */
@@ -162,7 +162,6 @@ header {
         right: 112px;
         margin: 10px;
         padding: 10px;
-        display: none;
     }
 
     button {
@@ -181,34 +180,54 @@ header {
         transform: scale(1.12);
     } 
 
-    .container-img {
+    /*.container-img {
         width: 100%;
         margin-right: 0;
 
     
-    }
+    }*/
+
     .hero-img {
         width: 100%;
         height: 80vh;
-        top: 150px;
+        top: 155px;
         right: 0;
-        padding: 5% 5%;
+        left: 100px;
+        padding: 0;
     }
-    .container-1 {
-        background-color: rgba(255, 153, 0, 0.014);
+    .container-main {
+        background-color: rgba(2, 2, 2, 0.52);
         width: 100%;
         height: 100%;
         margin-left: auto;
-        margin-top: 552px;
-        box-shadow: 0 5px 10px rgb(0, 0, 0, 84%);
+        margin-top: 500px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.233);
         border-radius: 30px;
     }
 
+    .card {
+        min-width: 80vw;
+        right: 150px;
+        border: none;
+    }
+
+    .card-body {
+        background-color: rgba(38, 38, 38, 0.842);
+        position: absolute;
+        top: 500px;
+        left: 120px;
+        width: 100%;
+        height: 40vh;
+        padding: 0;
+        margin: auto;
+    }
+
+    
     #attraction, #plan {
         flex-direction: column;
         justify-content: center;
         align-items: baseline;
-        margin-top: 100px;
+        margin-top: 150px;
         width: 100%;
         min-height: 85vh;
        
