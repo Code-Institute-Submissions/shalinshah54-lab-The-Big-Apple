@@ -20,19 +20,19 @@ body {
 }
 /* The Hero Image */
 .container-img {
-    width: 75%;
+    width: 85%;
     position: relative;
     margin-right: 0;
 
 }
 .hero-img {
     position: absolute;
-    width: 65%;
+    width: 55%;
     height: 100vh;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 600px;
+    left: 700px;
     z-index: -10;
 }
 /*Nav bar */
@@ -81,32 +81,9 @@ header {
 .nav-links .nav-items:hover {
     color: rgba(255, 153, 0, 1);
 }
-/* sign up button */
+/* contact us button */
 
-.sign-btn {
-    width: 150px;
-    height: 35px;
-    padding: 0px 14px;
-    border-radius: 20px;
-    box-shadow: 2px 4px 10px rgba(38, 38, 38, 0.92);
-    background: rgba(255, 153, 0, 1);
-    transition: all 0.5s ease-in-out 0s;
-    z-index: 10;
-    
-}
 
-.sign-btn:hover {
-    background: rgba(255, 153, 0, 0.7);
-    transform: scale(1.12);
-}
-
-.btn {
-    display: inline-block;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 0px;
-    
-}
 
 .burger {
     position: absolute;
@@ -136,7 +113,7 @@ header {
 
 
 }
-/* for the burger menu to appear and animate on click */
+/*for the burger menu to appear and animate on click */
 @media screen and (max-width: 831px){
     body {
         overflow-x: hidden;
@@ -165,7 +142,6 @@ header {
         transition: transform 0.5s ease-in;
         z-index: 5;
         } 
-
 
     .nav-links li {
         opacity: 0;
@@ -341,13 +317,13 @@ span {
     flex-direction: column;
     margin-top: 50px;
     width: 100%;
-    min-height: 85vh;
+    min-height: 90vh;
 }
 
 .att-title {
     color: rgba(194, 194, 194, 1);
     position: absolute;
-    top: 700px;
+    top: 900px;
     left: 100px;
     font-weight: 500;
     text-transform: uppercase;
@@ -356,7 +332,7 @@ span {
 
 .att-line {
     position: absolute;
-    top: 725px;
+    top: 925px;
     left: 100px;
     width: 100px;
     height: 3px;
@@ -366,35 +342,59 @@ span {
 
 .carousel {
     position: absolute;
-    top: 738px;
-    left: 101px;
+    top: 1000px;
+    left: 80px;
+    right: 80px;
+    height: 50vh;
 }
 
 button {
-    width: 50px;
+    width: 20px;
     height: 20px;
-    border-radius: 20px;
+    border-radius: 50%;
+    top: 100px;
     background-color: rgba(255, 153, 0, 1);
     border: none;
     box-shadow: none;
     margin-bottom: 20px;
+    margin-right: 10px;
 }
 button:hover {
     box-shadow: 5px 5px 10px rgba(194, 194, 194, 1);
 }
+.prevbtn {
+    width: 70px;
+    height: 70px;
+    border-radius: 0 10% 10% 0;
+    background-color: rgb(150, 150, 150);
+    border: none;
+    box-shadow: none;
+    bottom: 0;
+    margin-left: 0;
+}
 
+.nextbtn{
+    width: 70px;
+    height: 70px;
+    border-radius: 10% 0 0 10%;
+    background-color: rgb(150, 150, 150);
+    border: none;
+    box-shadow: none;
+    bottom: 0;
+    margin-right: 0;
+}
 
 /* plan scroll down page */
 #plan {
     margin-top: 40px;
     width: 100%;
-    min-width: 75vh;
+    min-width: 85vh;
 }
 
 .plan-title {
     color: rgba(194, 194, 194, 1);
     position: absolute;
-    top: 1525px;
+    top: 1750px;
     left: 100px;
     font-weight: 500;
     text-transform: uppercase;
@@ -403,7 +403,7 @@ button:hover {
 
 .plan-line {
     position: absolute;
-    top: 1550px;
+    top: 1775px;
     left: 100px;
     width: 30px;
     height: 3px;
