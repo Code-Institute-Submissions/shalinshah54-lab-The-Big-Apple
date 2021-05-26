@@ -339,7 +339,7 @@ button:hover {
 #map {
     width: 360px;
     height: 360px;
-    background-color: white;
+    border: 2px solid black;
     top: 1866px;
     position: absolute;
     left: 100px;
