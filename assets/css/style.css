@@ -310,30 +310,42 @@ button:hover {
 
 /* plan scroll down page */
 #plan {
-    margin-top: 40px;
+    margin-top: 10px;
     width: 100%;
-    min-width: 85vh;
+    min-width: 50vh;
 }
 
 .plan-title {
     color: rgba(194, 194, 194, 1);
     position: absolute;
-    top: 1750px;
+    top: 1760px;
     left: 100px;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.5em;
     text-transform: uppercase;
     text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
 }
 
 .plan-line {
     position: absolute;
-    top: 1775px;
+    top: 1800px;
     left: 100px;
     width: 30px;
     height: 3px;
     border-radius: 18px;
     background-color: rgba(255, 153, 0, 1);
 }
+/* maps */
+#map {
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    top: 1866px;
+    position: absolute;
+    left: 100px;
+}
+
+
 /* neighborhood page */
 
 .underline {
@@ -536,7 +548,6 @@ button:hover {
 .si-para {
     color: rgb(150, 150, 150);
 }
-
 
 
 /* at media query */
