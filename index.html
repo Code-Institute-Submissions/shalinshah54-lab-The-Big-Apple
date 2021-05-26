@@ -79,55 +79,43 @@
         </div>
 
         <div class="carousel-inner slider">
-          <div class="carousel-item active" data-bs-interval="10000">
+          <div class="carousel-item active" data-bs-interval="5000">
             <img src="/assets/images/bb.jpg" class="d-block w-100" alt="brooklyn bridge" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Brooklyn Bridge</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
             </div>
           </div>
 
-          <div class="carousel-item" data-bs-interval="2000">
+          <div class="carousel-item" data-bs-interval="5000">
             <img src="/assets/images/ts.jpg" class="d-block w-100" alt="Time Square" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Time Square</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
             </div>
           </div>
 
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="5000">
             <img src="/assets/images/cp.jpg" class="d-block w-100" alt="central park" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Central Park</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
             </div>
           </div>
 
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="5000">
             <img src="/assets/images/esb.jpg" class="d-block w-100" alt="empire state building" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Emipre State Building</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
             </div>
           </div>
         </div>
         <button class="carousel-control-prev prevbtn" type="button" data-bs-target="#carouselExampleDark"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span i class="fa-solid fa-chevron-left"></i></span>
         </button>
         <button class="carousel-control-next nextbtn" type="button" data-bs-target="#carouselExampleDark"
           data-bs-slide="next">
-          <span class="carousel-control-next" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span i class="fa-solid fa-chevron-right"></i></span>
         </button>
       </div>
     </section>
@@ -136,12 +124,17 @@
     <section id="plan" class="planslide">
       <div class="plan-title">Plan</div>
       <div class="plan-line"></div>
+      <div id="map">
+
+      </div>
     </section>
   </main>
   <footer>social media</footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="/assets/Script/script.js" async defer></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="/assets/Script/script.js" async defer>
+  var APIKey = "AIzaSyAO3Gh_p4EWFkAh4sTZeKskXWM_G1z3oWI";
+</script>
 
 </html>
