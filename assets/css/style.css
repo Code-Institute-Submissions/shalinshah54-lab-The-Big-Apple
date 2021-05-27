@@ -202,7 +202,7 @@ span {
 .btn-pl {
     width: 250px;
     height: 30px;
-    padding: 0px 10px;
+    padding: 0px 5px;
     border-radius: 20px;
     box-shadow: 2px 4px 10px rgba(38, 38, 38, 0.92);
     background: rgba(255, 153, 0, 1);
@@ -222,13 +222,13 @@ span {
     flex-direction: column;
     margin-top: 0;
     width: 80%;
-    min-height: 75vh;
+    min-height: 100vh;
 }
 
 .att-title {
     color: rgba(194, 194, 194, 1);
     position: absolute;
-    top: 850px;
+    top: 650px;
     left: 100px;
     font-size: 1.5em;
     font-weight: 600;
@@ -238,7 +238,7 @@ span {
 
 .att-line {
     position: absolute;
-    top: 900px;
+    top: 685px;
     left: 100px;
     width: 100px;
     height: 3px;
@@ -248,9 +248,9 @@ span {
 
 .carousel {
     position: absolute;
-    top: 950px;
-    left: 80px;
-    right: 80px;
+    top: 790px;
+    left: 200px;
+    right: 0;
     min-height: 20vh;
 }
 .carousel-indicators {
@@ -274,7 +274,7 @@ button {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    top: 1000px;
+    top: 900px;
     background-color: rgba(255, 153, 0, 1);
     border: none;
     box-shadow: none;
@@ -310,15 +310,14 @@ button:hover {
 
 /* plan scroll down page */
 #plan {
-    margin-top: 10px;
+    margin-top: 40px;
     width: 100%;
-    min-width: 50vh;
 }
 
 .plan-title {
     color: rgba(194, 194, 194, 1);
     position: absolute;
-    top: 1760px;
+    top: 800px;
     left: 100px;
     font-weight: 600;
     font-size: 1.5em;
@@ -328,7 +327,7 @@ button:hover {
 
 .plan-line {
     position: absolute;
-    top: 1800px;
+    top: 835px;
     left: 100px;
     width: 30px;
     height: 3px;
@@ -337,14 +336,72 @@ button:hover {
 }
 /* maps */
 #map {
-    width: 360px;
-    height: 360px;
+    width: 50%;
+    height: 50vh;
     border: 2px solid black;
-    top: 1866px;
+    top: 900px;
     position: absolute;
     left: 100px;
 }
 
+/* Social Media */
+
+.social-title {
+    color: rgba(194, 194, 194, 1);
+    position: absolute;
+    top: 750px;
+    left: 100px;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
+}
+
+.social-line {
+    position: absolute;
+    top: 795px;
+    left: 100px;
+    width: 30px;
+    height: 3px;
+    border-radius: 18px;
+    background-color: rgba(255, 153, 0, 1);
+}
+
+.socialmedialinks {
+    position: absolute;
+    top: 825px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.socialmedialinks li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.socialmedialinks li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    
+}
+
+.socialmedialinks li a img : :hover {
+    color: rgba(194, 194, 194, 1);
+}
+
+.copyright {
+    color: rgba(194, 194, 194, 1);
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    font-size: 0.8em;
+    margin-top: 0;
+}
 
 /* neighborhood page */
 
