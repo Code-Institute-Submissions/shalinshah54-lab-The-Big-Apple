@@ -125,7 +125,9 @@ header {
 }
 
 /* contact us button */
-
+#contact {
+    
+}
 
 
 
@@ -269,8 +271,13 @@ span {
     margin-left: 15%;
     list-style: none;
 }
+.slider-name {
+    color: rgb(253, 253, 253);
+    text-shadow: 5px -5px 10px rgba(2, 2, 2, 0.863);
+    font-size: 2em;
+}
 
-button {
+.btn-carousel {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -281,7 +288,7 @@ button {
     margin-bottom: 0px;
     margin-right: 10px;
 }
-button:hover {
+.btn-carousel:hover {
     box-shadow: 5px 5px 10px rgba(194, 194, 194, 1);
 }
 .prevbtn {

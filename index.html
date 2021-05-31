@@ -29,7 +29,7 @@
         </li>
         <li><a class="nav-items" href="#attraction">Attraction</a></li>
         <li><a class="nav-items" href="#plan">Plan</a></li>
-        <li><a class="nav-items" href="#">Contact Us</a></li>
+        <li><a class="nav-items" href="#contact">Contact Us</a></li>
       </ul>
       <!--Burger Menu-->
       <div class="burger clostbtn">
@@ -74,44 +74,52 @@
             <div class="att-line"></div>
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="btn-carousel active"
                   aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="btn-carousel"
                   aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="btn-carousel"
                   aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="btn-carousel"
                   aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" class="btn-carousel"
                   aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" class="btn-carousel"
+                  aria-label="Slide 6"></button>
               </div>
 
               <div class="carousel-inner slider">
                 <div class="carousel-item active" data-bs-interval="5000">
                   <img src="/assets/images/bb.jpg" class="d-block w-100" alt="brooklyn bridge" />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Brooklyn Bridge</h5>
+                    <h5 class="slider-name">Brooklyn Bridge</h5>
                   </div>
                 </div>
 
                 <div class="carousel-item" data-bs-interval="5000">
                   <img src="/assets/images/ts.jpg" class="d-block w-100" alt="Time Square" />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Time Square</h5>
+                    <h5 class="slider-name">Time Square</h5>
                   </div>
                 </div>
 
                 <div class="carousel-item" data-bs-interval="5000">
                   <img src="/assets/images/cp.jpg" class="d-block w-100" alt="central park" />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Central Park</h5>
+                    <h5 class="slider-name">Central Park</h5>
                   </div>
                 </div>
 
                 <div class="carousel-item" data-bs-interval="5000">
                   <img src="/assets/images/esb.jpg" class="d-block w-100" alt="empire state building" />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Emipre State Building</h5>
+                    <h5 class="slider-name">Emipre State Building</h5>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <img src="/assets/images/owt.jpg" class="d-block w-100" alt="one world trade" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="slider-name">One World Trade</h5>
                   </div>
                 </div>
               </div>
@@ -133,19 +141,6 @@
 
     <!--Plan and Map section-->
     <section id="plan">
-        <h1 class="section-heading">What To Do?</h1>
-        <div class="explore-container">
-            <div class="row">
-                <!-- buttons gets inserted here via map.js -->
-                <div id="button-row" class="col-12 col-lg-8 col-lg-offset-4 d-flex justify-content-center"></div>
-            </div>
-            <div class="row">
-                <!-- content gets inserted here via map.js -->
-                <div class="recommend-content-container col-12 d-lg-block col-lg-4">
-                    <div id="recommend-content"></div>
-                </div>
-            </div>
-        </div>
       <div class="container-sm-12 container-md-8 container-lg-10 container-xl-12 map-container">
         <div class="row">
           <div class="col-sm-12 col-md-8 col-lg-10 col-xl-12">
@@ -157,8 +152,49 @@
       </div>
     </section>
 
+    <!--Contact
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="col-12 my-1">
+               <form>
+                  <h2 class="contact">Contact Us</h2>
+                     <div class="col">
+                       <label for="validationCustom01" class="name">First name</label>
+                          <input type="text" class="form-control" id="validation" value="" required>
+                            <div class="valid-feedback">Looks good!
+                            </div>
+                     </div>     
+                       <div class="col">
+                           <label for="validationCustom02" class="last-name">Last name</label>
+                              <input type="text" class="form-control" id="validation" value="" required>
+                                <div class="valid-feedback">Looks good!
+                                </div>
+                       </div>   
+                       <div class="col">
+                           <label for="validationCustom02" class="email">Email address</label>
+                              <input type="text" class="form-control" id="validation" value="" required>
+                                <div class="valid-feedback">Looks good!
+                                 </div>
+                        <div class="form-group">
+                           <label for="exampleFormControlTextarea1" class="msg">Message</label>
+                           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                     <button class="btn btn-dark" type="submit">Submit form</button>
+                 </form>    
+                </div>
+            </div> 
+         </div> 
+    </div>    
+    <div class="container-fluid my-3"> 
+       <section class="add-ons">
+           <div class="row">
+              
+         </div>    
+    </div>
+    </section>-->
   </main>
-
+<!--Social Media-->
   <footer>
     <div class="container-fluid">
       <div class="row">
