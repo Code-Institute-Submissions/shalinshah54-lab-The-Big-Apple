@@ -32,7 +32,7 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 600px;
+    left: 720px;
     z-index: -10;
 }
 /*Nav bar */
@@ -138,8 +138,8 @@ header {
     top: 100px;
     left: 0;
     right: 500px;
-    width: 55%;
-    height: 50vh;
+    width: 50%;
+    height: 45vh;
     padding: 0;
     margin: 0;
 }
@@ -233,7 +233,7 @@ span {
     height: 200vh;
     width: 100%;
     position: relative;
-    top: 544px;
+    top: 720px;
 }
 
 
@@ -358,7 +358,7 @@ span {
 }
 /* maps */
 #map {
-    width: 90%;
+    width: 85%;
     height: 50vh;
     border: 2px solid rgb(92, 92, 92);
     border-radius: 20px;
@@ -644,6 +644,35 @@ a:active {
 
 
 /* at media query */
+@media screen and (max-width: 1400px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .card-body {
+        background: linear-gradient(353deg, rgba(196,196,196,0.4) 11%, rgba(55,55,55,1) 73%);
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 500px;
+        width: 50%;
+        height: 45vh;
+        padding: 0;
+        margin: 0;
+    #map {
+        width: 80%;
+        height: 50vh;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius: 20px;
+        box-shadow: 3px -3px 10px rgba(194, 194, 194, 1);
+        top: 100px;
+        position: absolute;
+        left: 200px;
+        right: 100px;
+        
+    }
+}
 
 @media screen and (max-width: 950px){
     * {
