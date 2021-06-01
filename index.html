@@ -24,9 +24,9 @@
     <nav class="navbar">
       <ul class="nav-links">
         <li><a class="nav-items" href="index.html">Home</a></li>
-        <li>
+       <!-- <li>
           <a class="nav-items" href="neighborhood.html">Neighborhood</a>
-        </li>
+        </li>-->
         <li><a class="nav-items" href="#attraction">Attraction</a></li>
         <li><a class="nav-items" href="#plan">Plan</a></li>
         <li><a class="nav-items" href="#contact">Contact Us</a></li>
@@ -52,9 +52,9 @@
                 <span>The New York City.</span> With endless history, diverse
                 ethnicity, different varieties of food, sightseeing, shopping 
                 and know about our neighborhood.
-                <a href="neighborhood.html" target="_blank">Read More</a>
+                <a class="cont-reading" href="neighborhood.html"><span>Continue reading</span></a>
               </p>
-              <a id="planBtn" class="btn planbtn" href="#plan"><button class="btn-pl">Plan Now</button></a>
+              <a id="planBtn" class="btn planbtn" href="#attraction"><button class="btn-pl">Plan Now</button></a>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@
 
   <br />
 
-  <main>
+  <main class="main-section">
     <!--attractions with a carousel-->
     <section id="attraction">
       <div class="container-sm-12 container-md-12 container-lg-12 container-xl-12">
@@ -74,18 +74,16 @@
             <div class="att-line"></div>
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="btn-carousel active"
+                <button id="btn-carousel" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                   aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="btn-carousel"
+                <button id="btn-carousel" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" 
                   aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="btn-carousel"
+                <button id="btn-carousel" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" 
                   aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="btn-carousel"
+                <button id="btn-carousel" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" 
                   aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" class="btn-carousel"
+                <button id="btn-carousel" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" 
                   aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" class="btn-carousel"
-                  aria-label="Slide 6"></button>
               </div>
 
               <div class="carousel-inner slider">
@@ -138,6 +136,7 @@
         </div>
       </div>
     </section>
+  </main>
 
     <!--Plan and Map section-->
     <section id="plan">
@@ -151,7 +150,7 @@
         </div>
       </div>
     </section>
-
+</main>
     <!--Contact
     <section id="contact">
       <div class="container">
@@ -193,10 +192,9 @@
          </div>    
     </div>
     </section>-->
-  </main>
+  
 <!--Social Media-->
-  <footer>
-    <div class="container-fluid">
+  <footer>    <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6 ">
           <div class="social-title">Social Media</div>
