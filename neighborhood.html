@@ -7,10 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init("user_bnfEeZZuadV4qMQdblHhq");
+})();
+</script>
   <title>The Big Apple</title>
 </head>
 
@@ -21,43 +31,39 @@
     <nav class="navbar">
       <ul class="nav-links">
         <li><a class="nav-items" href="index.html">Home</a></li>
-       <!-- <li>
-          <a class="nav-items" href="neighborhood.html">Neighborhood</a>
-        </li>-->
-        <li><a class="nav-items" href="#attraction">Attraction</a></li>
-        <li><a class="nav-items" href="#plan">Plan</a></li>
         <li><a class="nav-items" href="contact.html">Contact Us</a></li>
       </ul>
-      
-     <!--Burger Menu-->
-     <div class="burger">
-       <div class="line1"></div>
-       <div class="line2"></div>
-       <div class="line3"></div>
-     </div>
-   </nav>
-   </header>
-   <br>
-   <div class="underline"></div>
 
-   <!--Content section-->
-   <div class="title">Neighborhood</div>
-   <div class="line"></div>
-   <!--first img and text content -->
-   <div class="container px-5 g-lg-2">
+      <!--Burger Menu-->
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+  <br>
+  <div class="underline"></div>
+
+  <!--Content section-->
+  <div class="title">Neighborhood</div>
+  <div class="line"></div>
+  <!--first img and text content -->
+  <div class="container px-5 g-lg-2">
     <div class="row gx-6">
-      <div class="col">
-       <div class="p-5 img-box">
-         <img class="mh" src="assets/images/mh.jpg" alt="manhattan">
-       </div>
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+        <div class="p-5 img-box">
+          <img class="mh" src="assets/images/mh.jpg" alt="manhattan">
+        </div>
       </div>
       <div class="col">
         <div class="p-5 text-box">
-          <h3 class="mh-text">Manhattan :</h3>
-          <p class="mh-para">Being one of the biggest Urban cities in the 
+          <h4 class="mh-text">Manhattan :</h4>
+          <p class="mh-para">Being one of the biggest Urban cities in the
             world and one of the five boroughs. It consists of a large island divided
-            into downtown, midtown and uptown. Locations to see are <span>Headquaters of UN, Financial District in lower Manhattan,
-            Statue of liberty and many more place and attractions to see.</span> Broadway 
+            into downtown, midtown and uptown. Locations to see are <span>Headquaters of UN, Financial District in lower
+              Manhattan,
+              Statue of liberty and many more place and attractions to see.</span> Broadway
             shows with world class artists and varieties of resturants to choose from.
           </p>
         </div>
@@ -67,40 +73,41 @@
   <!--second img and text content-->
   <div class="container px-5 g-lg-2">
     <div class="row gx-6">
-      <div class="col">
-        <div class="p-5 text-box">
-          <h4 class="qn-text">Queens :</h4>
-          <p class="qn-para">Queens is a New York City borough on Long Island across the East River 
-            from Manhattan. Flushing Meadows Corona Park, with the Unisphere, a 12-story 1964 World's 
-            Fair globe ssculpture, hosts the annual U.S. Open tennis tournament. The Park's Queens Museum 
-            is known for the 'Panorama', a building-for-building model of New York City. Nearby Citi Field 
-            is the stadium of pro baseball team, METS.
-          </p>
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+        <div class="p-5 img-box">
+          <img class="qn" src="assets/images/queens.jpg" alt="queens">
         </div>
       </div>
-      <div class="col">
-        <div class="p-5 img-box">
-         <img class="qn" src="assets/images/queens.jpg" alt="queens">
-       </div>
-      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+    <div class="p-5 text-box">
+      <h4 class="qn-text">Queens :</h4>
+      <p class="qn-para">Queens is a New York City borough on Long Island across the East River
+        from Manhattan. Flushing Meadows Corona Park, with the Unisphere, a 12-story 1964 World's
+        Fair globe ssculpture, hosts the annual U.S. Open tennis tournament. The Park's Queens Museum
+        is known for the 'Panorama', a building-for-building model of New York City. Nearby Citi Field
+        is the stadium of pro baseball team, METS.
+      </p>
     </div>
   </div>
   <!--third img and text content-->
   <div class="container px-5 g-lg-2">
     <div class="row gx-6">
-      <div class="col">
-       <div class="p-5 img-box">
-         <img class="bk" src="assets/images/cony.jpg" alt="brooklyn">
-       </div>
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+        <div class="p-5 img-box">
+          <img class="bk" src="assets/images/cony.jpg" alt="brooklyn">
+        </div>
       </div>
-      <div class="col">
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
         <div class="p-5 text-box">
           <h4 class="bk-text">Brooklyn :</h4>
           <p class="bk-para">Once a home for incoming immigrants via Ellis Island, Brooklyn has evolved
             into the world capital of hip. Traces of the old guard stand proud among the more recent
             wave of stylish restaurants, bars, art galleries, and indie shops in Brooklyn's living,
             multicultural neighborhoods. The borough's green spaces Prospect Park, the Brooklyn Botanical
-            Gardens, Brooklyn Bridge Park are second to none. And the dynamic dining scene, from dim sum parlors to classic pizzerias
+            Gardens, Brooklyn Bridge Park are second to none. And the dynamic dining scene, from dim sum parlors to
+            classic pizzerias
             to farm-to-table eatries, rivals that of Manhattan.
           </p>
         </div>
@@ -110,37 +117,37 @@
   <!--fourth img and text content-->
   <div class="container px-5 g-lg-2">
     <div class="row gx-6">
-      <div class="col">
-        <div class="p-5 text-box">
-          <h4 class="bx-text">Bronx :</h4>
-          <p class="bx-para">The Bronx is a borough of New York City. Its known for Yankee Stadium,
-            the home field of the New York Yankees baseball team. Dating from 1899, the vast Bronx Zoo houses 
-            hundreds of species of animals. Nearby, the sprawling New York Botanical Garden features
-            a landmark greenhouse with rainforest and cactus displays.
-          </p>
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+        <div class="p-5 img-box">
+          <img class="bx" src="assets/images/nyy.jpg" alt="bronx">
         </div>
       </div>
-      <div class="col">
-        <div class="p-5 img-box">
-         <img class="bx" src="assets/images/nyy.jpg" alt="bronx">
-       </div>
-      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+    <div class="p-5 text-box">
+      <h4 class="bx-text">Bronx :</h4>
+      <p class="bx-para">The Bronx is a borough of New York City. Its known for Yankee Stadium,
+        the home field of the New York Yankees baseball team. Dating from 1899, the vast Bronx Zoo houses
+        hundreds of species of animals. Nearby, the sprawling New York Botanical Garden features
+        a landmark greenhouse with rainforest and cactus displays.
+      </p>
     </div>
   </div>
   <!--fifth img and text content-->
   <div class="container px-5 g-lg-2">
     <div class="row gx-6">
-      <div class="col">
-       <div class="p-5 img-box">
-         <img class="si" src="assets/images/ver.jpg" alt="staten island">
-       </div>
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+        <div class="p-5 img-box">
+          <img class="si" src="assets/images/ver.jpg" alt="staten island">
+        </div>
       </div>
-      <div class="col">
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
         <div class="p-5 text-box">
           <h4 class="si-text">Staten Island :</h4>
-          <p class="si-para">Staten Island is the southernmost of New York City's 5 boroughs. 
-            It is connected to Lower Manhattan via the Staten Island Ferry, which runs across New 
-            York Harbor. Staten Island Zoo is home to kangaroos, birds of prey and snakes. The Snug Harbor Cultural 
+          <p class="si-para">Staten Island is the southernmost of New York City's 5 boroughs.
+            It is connected to Lower Manhattan via the Staten Island Ferry, which runs across New
+            York Harbor. Staten Island Zoo is home to kangaroos, birds of prey and snakes. The Snug Harbor Cultural
             Center and Bontanical Garden features flower beds, Greek revival buildings and art galleries. Its
             grounds also include the Staten Island Children's Museum.
           </p>
@@ -151,23 +158,27 @@
   <footer>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6 ">
+        <div class="col-sm-6">
           <div class="social-title">Social Media</div>
-            <div class="social-line"></div>
-            <ul class="socialmedialinks">
-              <li><a target="_blank" href="https://www.facebook.com/"><img src="assets/node_modules/bootstrap-icons/icons/facebook.svg" alt="facebook"></a></li>
-              <li><a target="_blank" href="https://twitter.com/home"><img src="assets/node_modules/bootstrap-icons/icons/twitter.svg" alt="twitter"></a></li>
-              <li><a target="_blank" href="https://www.instagram.com/"><img src="assets/node_modules/bootstrap-icons/icons/instagram.svg" alt="instagram"></a></li>
-            </ul>
-             <div class="copyright">
-               <p>&copy2021 Copyrights JoyTravelsInc.</p>
-             </div>
+          <div class="social-line"></div>
+          <ul class="socialmedialinks">
+            <li><a target="_blank" href="https://www.facebook.com/"><img
+                  src="assets/node_modules/bootstrap-icons/icons/facebook.svg" alt="facebook"></a></li>
+            <li><a target="_blank" href="https://twitter.com/home"><img
+                  src="assets/node_modules/bootstrap-icons/icons/twitter.svg" alt="twitter"></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/"><img
+                  src="assets/node_modules/bootstrap-icons/icons/instagram.svg" alt="instagram"></a></li>
+          </ul>
+          <div class="copyright">
+            <p>&copy2021 Copyrights JoyTravelsInc.</p>
+          </div>
         </div>
       </div>
     </div>
   </footer>
 </body>
-<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script
+  src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFoKUBtI1_kGlb_DXDAzPmwKrnGMFOViE&callback=initMap"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -178,5 +189,6 @@
   integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 <script src="assets/Script/script.js"></script>
 <script src="assets/Script/map.js"></script>
+<script src="assets/Script/email.js"></script>
 
 </html>

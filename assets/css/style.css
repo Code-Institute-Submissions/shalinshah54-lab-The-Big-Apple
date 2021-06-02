@@ -630,11 +630,13 @@ a:active {
     letter-spacing: 2px;
     padding: 15px 0;
     font-weight: 300;
+    margin-left: 40px;
     text-align: start;
 }
 
 .qn-para {
     color: rgb(150, 150, 150);
+    margin-left: 40px;
 }
 
 .img-box {
@@ -700,11 +702,13 @@ a:active {
     letter-spacing: 2px;
     padding: 15px 0;
     font-weight: 300;
+    margin-left: 40px;
     text-align: start;
 }
 
 .bx-para {
     color: rgb(150, 150, 150);
+    margin-left: 40px;
 }
 
 .img-box {
@@ -773,6 +777,19 @@ a:active {
         right: 100px;
         
     }
+    .btn-contact {
+        width: 70%;
+        height: 30px;
+        padding: 0px 5px;
+        margin-left: 60px;
+        margin-top: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 4px 10px rgba(38, 38, 38, 0.92);
+        background: rgba(255, 153, 0, 1);
+        transition: all 0.5s ease-in-out 0s;
+        z-index: 10;
+    }
+
 }
 
 @media screen and (max-width: 950px){
@@ -788,6 +805,19 @@ a:active {
     .navbar {
         font-size: 16px;
         padding-left: 2px;
+    }
+    .btn-contact {
+        width: 50%;
+        height: 30px;
+        right: 100px;
+        padding: 0px 5px;
+        margin-left: 86px;
+        margin-top: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 4px 10px rgba(38, 38, 38, 0.92);
+        background: rgba(255, 153, 0, 1);
+        transition: all 0.5s ease-in-out 0s;
+        z-index: 10;
     }
 
 
@@ -922,12 +952,12 @@ a:active {
     .card-body {
         background-color: rgba(38, 38, 38, 0.842);
         position: absolute;
-        top: 365px;
-        left: 155px;
+        top: 532px;
+        left: 161px;
         width: 95%;
-        height: 35vh;
-        padding: 2px;
-        margin: auto;
+        height: 41vh;
+        padding: 9px;
+        margin: auto
     }
 
     
@@ -942,10 +972,63 @@ a:active {
     }
     .carousel {
         position: absolute;
-        top: 726px;
-        left: 157px;
-        right: 60px;
-        min-height: 20vh;
+        left: 100px;
+        right: 100px;
     }
     
+    #map {
+        width: 70%;
+        height: 65vh;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius: 20px;
+        box-shadow: 3px -3px 10px rgb(194 194 194);
+        top: 116px;
+        position: absolute;
+        left: 130px;
+        right: 100px;
+    }
+    .social-title {
+        color: rgba(194, 194, 194, 1);
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        font-weight: 600;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-shadow: 4px 3px 5px rgb(2 2 2 / 86%);
+    }
+    .social-line {
+        top: 90px;
+    }
+    .socialmedialinks {
+        top: 100px;
+    }
+    .copyright {
+        top: 200px;
+    }
+    .btn-contact {
+        width: 50%;
+        height: 30px;
+        top: 340px;
+        left: 20px;
+        padding: 0px 5px;
+        margin-left: 50px;
+        border-radius: 20px;
+        box-shadow: 2px 4px 10px rgba(38, 38, 38, 0.92);
+        background: rgba(255, 153, 0, 1);
+        transition: all 0.5s ease-in-out 0s;
+        z-index: 10;
+    }
+}
+@media screen and (max-width: 765px){
+    .card-body {
+        background-color: rgba(38, 38, 38, 0.842);
+        position: absolute;
+        top: 532px;
+        left: 110px;
+        width: 95%;
+        height: 41vh;
+        padding: 9px;
+        margin: auto;
+    }
 }
