@@ -139,13 +139,13 @@ header {
 .contact-title {
     color: rgba(194, 194, 194, 1);
     position: absolute;
-    left: 25%;
-    padding: 20px 0;
+    left: 17%;
+    padding: 7px 0;
     text-align: center;
-    font-size: 1.5em;
-    font-weight: 600;
+    font-size: 1.2em;
+    font-weight: 400;
     text-transform: uppercase;
-    text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
+    text-shadow: 4px 3px 5px rgb(2 2 2 / 86%);
 }
 
 .contact-line {
@@ -157,19 +157,31 @@ header {
     border-radius: 18px;
     background-color: rgba(255, 153, 0, 1);
 }
-.name-entry {
-    height: 100px;
+.input-box {
+    height: 50px;
+    width: 90%;
     background-color: transparent;
-    margin: 8px;
+    margin: 4px;
     padding: 22px;
 }
-.last-entry {
-    height: 40px;
+#text-box{
+    height: 50px;
+    width: 90%;
     background-color: transparent;
-    margin-top: 0px;
-    padding: 26px;
-    margin-left: 3px;
-    }
+    margin: 4px;
+    padding: 22px;
+}
+.contact-name {
+    margin-top: 80px;
+    color: rgb(170, 170, 170);
+}
+.contact-mail {
+    color: rgb(170, 170, 170);
+}
+.contact-message {
+    color: rgb(170, 170, 170);
+}
+
 .email-entry {
     height: 40px;
     background-color: transparent;
@@ -202,10 +214,6 @@ header {
     color: rgb(253, 253, 253);    
 }
 
-#validation {
-    font-size: 1rem;
-    background-color:rgb(253, 253, 253); 
-}
 .btn-contact {
     width: 438px;
     height: 30px;
