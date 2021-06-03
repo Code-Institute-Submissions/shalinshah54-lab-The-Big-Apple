@@ -49,7 +49,7 @@
         <div class="col-12 my-1">
           <h2 class="contact-title">Contact Us</h2>
           <div class="contact-line"></div>
-          <form>
+          <form onsubmit="return sendMail(this);" method="POST">
             <div class="col name-entry">
               <label for="validationCustom01" class="name"></label>
               <input type="text" class="form-control" placeholder="First Name" id="validation" value="" required>
