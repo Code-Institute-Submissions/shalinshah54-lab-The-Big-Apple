@@ -173,9 +173,9 @@ header {
 .email-entry {
     height: 40px;
     background-color: transparent;
-    margin-top: -52px;
-    padding: 26px;
-    margin-left: 3px;
+    margin-top: -82px;
+    padding: 19px;
+    margin-left: 5px;
 }
 .msg-entry {
     background-color: transparent;
@@ -186,11 +186,6 @@ header {
 
 .name {
      margin: 30px;
-     font-size: 1rem;
-     color: rgb(253, 253, 253);
-}
-
-.last-name{
      font-size: 1rem;
      color: rgb(253, 253, 253);
 }

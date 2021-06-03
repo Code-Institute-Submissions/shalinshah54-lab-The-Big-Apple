@@ -127,3 +127,103 @@ Hero Image which is aligned vertically in the desktop view and horizontally in t
 There is a plan section which has a google map showing the place to see in and around the city with Cluster Markers.
 
 The text is consistant throughout all the pages mostly consisting information about travel.
+
+# **Skeleton Plane**
+
+Below is a link to the initial draft of the wireframe I created for the project and an initial conceptual idea of how everything would respond on different devices.
+
+[TheBigAppleWireframe](https://www.figma.com/file/mygPQEtQG0flf6Nru9buxY/The-Big-Apple?node-id=0%3A1)
+
+I also typed up all my pages beforehand to help me to proofread the content and fix the grammatical error. It also allowed me to plan my text, structure my paragraphs and condense text under subheadings.
+
+There are some differences from the wireframes to the project,
+
+- Home page contains a heading with a quote **The Big Apple** and the content all in a container with a button that helps you ***plan*** the places to see by scrolling down to that section.
+- The image on home page is vertically aligned on right side of the page and navbar and logo on the left side of the page.
+- All the navlinks have a hover effect once the mouse moves over it and at 831px the burger appears and onclick the navlinks have an animation of delay. And the burger changes to close sign with animation and javascript.
+- All the main headings are underlined using shades of orange using CSS styling to have the topics stand out from the dark background.
+- On clicking on attraction and plan on the navbar will take you to that respective section.
+- Company name(logo) is a hyperlink which can bring you back to the home page at anytime.
+- The neighborhood and contact page only has two navlinks because it doesn't contain the attration and plan section.
+- The contact page has a validation form which helps the user to send the message via emailjs to the client. This can help interact the user and client in better way.
+- Social Media Links in the footer opens up with a new blank page and links to an account.
+
+There were some other smaller changes that I decided to go ahead with I just felt made the project more aesthetically pleasing.
+
+# **Surface Plane**
+
+### _Features present across the project_
+
+- Navbar - Responsive, toggles to a hamburger menu. Colored light grey for inactive pages and colored white for the currently active page. It have animation with the navlinks slide in when the navbar opens and the burger menu changes to a close button. The main logo in the left acts also as a link back to the home page.
+- Footer - There are social media hyperlinks which can direct you to the linked page for better feedback.
+- Large Hero images to deaw the user attention. All the images are bright and colorfull specially on the service page to intorduce a fun page interaction.
+- Dark background for the users to feel less strain on the eyes while reading and also help the images pop out.
+- Different information on boroghs with images and places to see in those boroghs have also been added to the neighborhood page.
+- Attraction which onclick takes the user to that section having a carousel slider. It slides with a every 2s as the page loads. There is also a next and prev button help to move back and forth. There are also indicator button which can take you straight to that image onclick.
+- Plan which onclick takes the user to that section which has google map of the New York City. There are Cluster Markers which point out the sightseeing places to be seen in all five boroughs. 
+- The contact page contains a simple form which can be submitted the traveler for feedback, more information about the travel options and links for the newsletter.
+
+### _Features to Implement_ :
+
+- Weather updator across all the pages which can tell the weather according to the location.
+- Places to stay and links to the hotel sites.
+- Flight destination using API.
+
+
+### _Technologies Used_ :
+
+- [HTML](https://www.w3schools.com/)
+
+  - used as the basic building block for the project and to structure the content.
+
+- [CSS](https://www.w3schools.com/)
+
+  - used to style all the web content across the project.
+
+-[JavaScript](https://www.w3schools.com/)
+  - used to scripts across the project the correct way.
+
+- [Bootstrap 4](https://getbootstrap.com/)
+
+  - Used as the main frame work to make the prject responsive.
+
+- [JavaScript](https://www.javascript.com/)
+
+  - used for the bootstrap navbar for extending collapse plugin and the contact us form by submitting.
+
+- [jQuery](https://jquery.com/)
+
+  - used with Bootstrap to make the navbar responsive.
+
+- [Google Fonts](https://fonts.google.com/)
+
+  - used to obtain the fonts linked in the header fonts used were Itim and Montserrat script.
+
+- [Font Awesome](https://fontawesome.com/)
+
+  - Used to obtain the social media lcon used in the footer and the icons used in the discription of the services and home page information.
+
+- [Google Developer tools](https://developers.google.com/web/tools/chrome-devtools)
+
+  - used primarily for fixing spacing issues finding bugs and testing responsiveness across the project.
+
+- [EmailJs](https://www.emailjs.com/)
+  - used to generate email for receiving msg and contact informaiton.
+
+- [API](https://cloud.google.com/)
+   - used to generate API key to get the google maps. 
+
+- [Github](https://github.com/)
+
+  - used to store code for the project after being pushed.
+
+- [Git](https://git-scm.com/)
+
+  - used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+- [Gitpod](https://gitpod.io/)
+
+  - used as the development envirnment. It helps to setup the code.
+
+- [Figma](https://figma.com/)
+  - Used to creat the wireframes for the project.
