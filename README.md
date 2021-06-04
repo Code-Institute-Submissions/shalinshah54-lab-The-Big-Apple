@@ -180,7 +180,7 @@ There were some other smaller changes that I decided to go ahead with I just fel
 
   - used to style all the web content across the project.
 
--[JavaScript](https://www.w3schools.com/)
+- [JavaScript](https://www.w3schools.com/)
   - used to scripts across the project the correct way.
 
 - [Bootstrap 4](https://getbootstrap.com/)
@@ -269,17 +269,17 @@ I used W3C Markup Validator and W3C Validator to validate every page of the proj
 
 - The buttons onclick noticing a small box appearing in the background. Tried to fix that but still I see the same problem.
 - The Carousel slides with a 2s delay and it has a little glitch which is noticed when the image is loading. There is a empty background between the sliding image. 
--Map has a difficulty with loading since the placement of the script tag was in the wrong place after fixing it now its appearing fine.
--HTML validator indicates that the id of btn-carousel is used multiple times, tried fixing that but by changing the id tag to class tag the carousel slider don't function properly.
--There is diplacement of anchor tag in the heading section which are links to different sections get disrupted with different media queries.
--There is overflow of X noted on the media query 520px and lower fixed it by hidding that.
--There are CSS validation errors which I am aware about because I think I have duplicated them in different media queries.
--On the contact page with the Send message form input of text and errors are appearing. The script is also working, testing the email is being send but doing it from the site is not sending any email to the inbox. Tried to fix that with the help of my mentor also but still not able to understand the issue. 
--The images on the neighborhoood page gets distorted with different size on the page and gets adjusted with the media query.
+- Map has a difficulty with loading since the placement of the script tag was in the wrong place after fixing it now its appearing fine.
+- HTML validator indicates that the id of btn-carousel is used multiple times, tried fixing that but by changing the id tag to class tag the carousel slider don't function properly.
+- There is diplacement of anchor tag in the heading section which are links to different sections get disrupted with different media queries.
+- There is overflow of X noted on the media query 520px and lower fixed it by hidding that.
+- There are CSS validation errors which I am aware about because I think I have duplicated them in different media queries.
+- On the contact page with the Send message form input of text and errors are appearing. The script is also working, testing the email is being send but doing it from the site is not sending any email to the inbox. Tried to fix that with the help of my mentor also but still not able to understand the issue. 
+- The images on the neighborhoood page gets distorted with different size on the page and gets adjusted with the media query.
 - W3C Makrup Validator flagged up errors on improper placing the script tag. The tags were adjusted and porper placed.
 - W3C CSS validator presented with alot of errors and seeing alot of duplicated classes trying to fix those.
--Social media links connected to the personal accounts.
--Map shows the cluster Markers and everything with placement of 20 marker(locations) for the traveller to see.
+- Social media links connected to the personal accounts.
+- Map shows the cluster Markers and everything with placement of 20 marker(locations) for the traveller to see.
 ## _Deployment_
 
 **GitHub**
