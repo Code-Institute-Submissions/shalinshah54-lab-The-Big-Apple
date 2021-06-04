@@ -227,3 +227,122 @@ There were some other smaller changes that I decided to go ahead with I just fel
 
 - [Figma](https://figma.com/)
   - Used to creat the wireframes for the project.
+
+## _Testing_
+
+**Testing User Stories from User Experience Design (UX) Section**
+
+User Story Testing
+
+#### _Further Testing_
+
+- The project was tested in the following browsers with success, Google Chrome, Microsoft Edge, Mozilla Firefox and Opera.
+- Projects was manually tested on Samsung Note 9, Samsung S9, Samsung TabA and Hp laptop 11 inch screen and Asus laptop and Hp Desktops.
+- Google Chrome Developer tools were used throughout the project to help me to test the responsiveness across devices.
+- Google Chrome Developer tools used to emulate devices,
+  - Moto G4
+  - Galaxy S5
+  - Pixel 2
+  - Pixel 2 XL
+  - iPhone 5/SE
+  - iPhone 6/7/8
+  - iPhone 6/7/8 plus
+  - iPhone X
+  - iPad
+  - iPad pro
+  - Galaxy Fold
+
+I used W3C Markup Validator and W3C Validator to validate every page of the project to ensure there were no syntax errors in the project.
+
+1. [Markup validator Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html)
+
+   1. [home page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html#textarea)
+
+   1. [neighborhood page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html#textarea)
+
+   1. [contact page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html#textarea)
+
+2. [W3C CSS Validator Result](http://www.css-validator.org/validator#errors)
+
+
+#### _Known Bugs and Fixes_
+
+- The buttons onclick noticing a small box appearing in the background. Tried to fix that but still I see the same problem.
+- The Carousel slides with a 2s delay and it has a little glitch which is noticed when the image is loading. There is a empty background between the sliding image. 
+-Map has a difficulty with loading since the placement of the script tag was in the wrong place after fixing it now its appearing fine.
+-HTML validator indicates that the id of btn-carousel is used multiple times, tried fixing that but by changing the id tag to class tag the carousel slider don't function properly.
+-There is diplacement of anchor tag in the heading section which are links to different sections get disrupted with different media queries.
+-There is overflow of X noted on the media query 520px and lower fixed it by hidding that.
+-There are CSS validation errors which I am aware about because I think I have duplicated them in different media queries.
+-On the contact page with the Send message form input of text and errors are appearing. The script is also working, testing the email is being send but doing it from the site is not sending any email to the inbox. Tried to fix that with the help of my mentor also but still not able to understand the issue. 
+-The images on the neighborhoood page gets distorted with different size on the page and gets adjusted with the media query.
+- W3C Makrup Validator flagged up errors on improper placing the script tag. The tags were adjusted and porper placed.
+- W3C CSS validator presented with alot of errors and seeing alot of duplicated classes trying to fix those.
+-Social media links connected to the personal accounts.
+-Map shows the cluster Markers and everything with placement of 20 marker(locations) for the traveller to see.
+## _Deployment_
+
+**GitHub**
+
+This project is deployed using GitHub pages using the following process,
+
+**Deplying a GitHub Repository**
+
+1. In your Repository section, select the [GitHub Repository](https://github.com/shalinshah54-lab/The-Big-Apple) you wish to deploy.
+1. In the top horizontal Menu, locate and click the _Settings_ link.
+1. Inside the _Setting_ page, about almost at the end you'll see GitHub Pages Section.
+1. Under Source , select the None tab and change it to the Main and click _Save_.
+1. Finally once the page resets scroll back down to the Github Pages Section to seee the following message "Your site is ready to be published at (link to the GitHub Page Web Address). It can take time for the link to open your project initially, so please don't be worried if it down not load immediately.
+
+**Forking the GitHub Repository**
+
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the repository in your GitHub account.
+
+1. Find the GitHub repository.
+1. At the top of the page to the right, under your account, click the _Fork_ button.
+1. Your will now have a copy of the repository in your GitHub account.
+
+**Making a Local Clone**
+
+1. Find the GitHub Repository.
+1. Click the Code button.
+1. Copy the link shown.
+1. In Gitpod, change the directory to the location you would like the cloned directory to be located.
+1. Type git clone, and _paste_ the link you copied in step 3.
+1. Press _Enter_ to have the local clone created.
+
+## _Credits_
+
+**Code :**
+
+- Code Institute
+  \*Thank you to Code Institute for all the videos and helping understand all the different types of mini projects with all the videos indifferent aspects.
+- Bootstrap
+  - Bootstrap library used throughtout the project mainly to make site responsive using the Bootstrap Grid System.
+- Jquery Library used as needed on the site.  
+- [Murach's HTML5 and CSS3](https://www.murach.com/shop/murachs-html5-and-css3-4th-edition-detail)
+  - the reference guide helping in detail understanding of the HTML and CSS concepts.
+
+**Content :**
+
+- Wikipedia
+  - helping understand the concepts of different codes, elements, attributes, CSS styling.
+- W3C school
+  - helping with the HTML codes and CSS style and how the styling will look like with an example.
+- Google
+  - thanks to google for making search easier in every single field of coding.
+  - thanks to google cloud Platform for the API for the maps.
+- Academind (youtuber)
+  - thanks to an youtuber for helping with bootstrap navbar making it responsive.
+- Thanks to [Emailjs](https://www.emailjs.com/) for providing the link to email and API.  
+- Images
+  _ Home page image :
+  _ thanks to [Pexel](https://www.pexels.com/)[Unsplash](https://unsplash.com/)
+   _ Neighborhood page image :
+  _ thanks to [Pexel](https://www.pexels.com/) images of the New York City and all the boroughs
+  *Fully Responsive NavBar*
+  thanks to  for the navbar[Dev Ed Youtuber](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)  
+  thanks to [tonny-reddington]from code institute (student) for sharing the code for email.js
+  I would like to take few seconds to thank my mentor and instructors who have put together all the videos the materials for helping all the students throught this journey.
+
+## Thank You
