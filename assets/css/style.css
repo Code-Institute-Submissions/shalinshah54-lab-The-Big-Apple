@@ -19,19 +19,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /* The Hero Image */
-.container-img {
-  width: 85%;
-  position: relative;
-  margin-right: 0;
-}
+
 .hero-img {
   position: absolute;
-  width: 55%;
-  height: 106vh;
+  width: 100%;
+  height: 120vh;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 600px;
+  left: 163px;
   z-index: -10;
 }
 /*Nav bar */
@@ -812,6 +808,15 @@ a:active {
     font-size: 16px;
     padding-left: 2px;
   }
+  
+  .hero-img {
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    right: 0;
+    left: 150px;
+    padding: 0;
+  }
   .card-body {
     background: linear-gradient(
       353deg,
@@ -933,16 +938,12 @@ a:active {
     transform: scale(1.12);
   }
 
-  .container-img {
-    margin-right: 200px;
-  }
-
   .hero-img {
-    width: 90%;
-    height: 70vh;
-    top: 155px;
+    width: 100%;
+    height: 100vh;
+    top: 50px;
     right: 0;
-    left: 100px;
+    left: 150px;
     padding: 0;
   }
   .container-main {
@@ -1087,20 +1088,14 @@ a:active {
   .closebtn .line3 {
     transform: rotate(45deg) translate(-6px, -9px);
   }
-  .container-img {
-    width: 85%;
-    position: relative;
-    margin-right: 0;
-  }
+
   .hero-img {
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    top: 168px;
-    right: 0px;
-    bottom: 0;
-    left: 70px;
-    z-index: -10;
+    width: 80%;
+    height: 100vh;
+    top: 50px;
+    right: 0;
+    left: 100px;
+    padding: 0;
   }
   .card-body {
     background-color: rgba(38, 38, 38, 0.842);
@@ -1274,20 +1269,14 @@ a:active {
   .closebtn .line3 {
     transform: rotate(45deg) translate(-6px, -9px);
   }
-  .container-img {
-    width: 85%;
-    position: relative;
-    margin-right: 0;
-  }
+ 
   .hero-img {
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    top: 168px;
-    right: 0px;
-    bottom: 0;
-    left: 70px;
-    z-index: -10;
+    width: 75%;
+    height: 100vh;
+    top: 50px;
+    right: 0;
+    left: 90px;
+    padding: 0;
   }
   .card-body {
     background-color: rgba(38, 38, 38, 0.842);
@@ -1474,20 +1463,14 @@ a:active {
   .closebtn .line3 {
     transform: rotate(45deg) translate(-6px, -9px);
   }
-  .container-img {
-    width: 85%;
-    position: relative;
-    margin-right: 0;
-  }
+ 
   .hero-img {
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    top: 168px;
-    right: 0px;
-    bottom: 0;
-    left: 70px;
-    z-index: -10;
+    width: 75%;
+    height: 100vh;
+    top: 50px;
+    right: 0;
+    left: 90px;
+    padding: 0;
   }
   .card-body {
     background-color: rgba(38, 38, 38, 0.842);
@@ -1674,20 +1657,14 @@ a:active {
   .closebtn .line3 {
     transform: rotate(45deg) translate(-6px, -9px);
   }
-  .container-img {
-    width: 85%;
-    position: relative;
-    margin-right: 0;
-  }
+ 
   .hero-img {
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    top: 168px;
-    right: 0px;
-    bottom: 0;
-    left: 40px;
-    z-index: -10;
+    width: 75%;
+    height: 100vh;
+    top: 50px;
+    right: 0;
+    left: 90px;
+    padding: 0;
   }
   .card-body {
     background-color: rgba(38, 38, 38, 0.842);
@@ -1874,21 +1851,14 @@ a:active {
   .closebtn .line3 {
     transform: rotate(45deg) translate(-6px, -9px);
   }
-  .container-img {
-    width: 85%;
-    position: relative;
-    margin-right: 0;
-  }
   .hero-img {
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    top: 168px;
-    right: 0px;
-    bottom: 0;
-    left: 40px;
-    z-index: -10;
-  }
+    width: 65%;
+    height: 100vh;
+    top: 50px;
+    right: 0;
+    left: 90px;
+    padding: 0;
+    }
   .card-body {
     background-color: rgba(38, 38, 38, 0.842);
     position: absolute;
