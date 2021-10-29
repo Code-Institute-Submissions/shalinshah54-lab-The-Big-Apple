@@ -20,5 +20,3 @@ const locations = [
     { lat: 40.785877, lng: -73.977283 },//Children Museum
     { lat: 40.781324, lng: -73.973988 },//Museum of Nature and History
   ];
-
-  
