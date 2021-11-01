@@ -15,7 +15,26 @@ I will run you through the steps to my project and putting all the efforts behin
 Thank You for all your help for which I was able to put together my very second project
 [The Big Apple](https://shalinshah54-lab.github.io/The-Big-Apple/index.html)
 
-# UX - User Experience design
+## Table of Contents
+
+- [User Experiencess](#user-experiences)
+  - [User Stories](#user-stories)
+  - [UX Framework](#ux-framework)
+  - [Wireframes](#wireframes)
+- [Existing Features](#existing-features)
+- [Features to be added in future](#features-to-be-added-in-future)
+- [Issues and Resolutions](#issues-and-resolutions)
+- [Technoligies Used](#technologies-used)
+  - [Languages used](#languages-used)
+  - [Frameworks, Libraries, Programme and Resources Used](#frameworks-libraries-programme-and-resources-used)
+- [Code Validation](#code-validation)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credit](#credit)
+- [Media](#media)
+- [Acknowledgements](#acknowledgements)
+
+## User Experiences
 
 The inspiration and planning of the project was from different travel sites, UX sites and things that travelers love to do "enjoy the city they are in'. The website consist of travel based information about the big apple giving information about the NYC and places to see and attractions to visit. Our services provides with places to locate using a map and sites to see and pick from.
 
@@ -71,7 +90,7 @@ I also would liked to know what travels are looking for and which places they ar
 - If for any reason they need to contact where they can leave a msg.
 
 # **Scope Plane**
-
+## UX Framework
 To Make the user experience more pleasing; In order to do so I started looking around asking questions to travel agents and going through the city websites, asking questions to the travelers personally with a site in place. After putting together all there ideas and researching I was able to put together a site which users would like to visit.
 
 From the feedback of the users I came to know that they are more that the visitors love to see in short amount of time.
@@ -132,7 +151,7 @@ There is a plan section which has a google map showing the place to see in and a
 The text is consistant throughout all the pages mostly consisting information about travel.
 
 # **Skeleton Plane**
-
+## Wireframes
 Below is a link to the initial draft of the wireframe I created for the project and an initial conceptual idea of how everything would respond on different devices.
 
 [TheBigAppleWireframe](https://www.figma.com/file/mygPQEtQG0flf6Nru9buxY/The-Big-Apple?node-id=0%3A1)
@@ -141,39 +160,74 @@ I also typed up all my pages beforehand to help me to proofread the content and 
 
 There are some differences from the wireframes to the project,
 
+## Existing Features
+### Home Page
 - Home page contains a heading with a quote **The Big Apple** and the content all in a container with a button that helps you ***plan*** the places to see by scrolling down to that section.
-- The image on home page is vertically aligned on right side of the page and navbar and logo on the left side of the page.
+- The image on home page is centered of the page and navbar and logo on the left side of the page.
 - All the navlinks have a hover effect once the mouse moves over it and at 831px the burger appears and onclick the navlinks have an animation of delay. And the burger changes to close sign with animation and javascript.
 - All the main headings are underlined using shades of orange using CSS styling to have the topics stand out from the dark background.
-- On clicking on attraction and plan on the navbar will take you to that respective section.
+- By clicking on the Plan Now button will scroll you down to the slider which has images and names of the places that visistor might like to see.
 - Company name(logo) is a hyperlink which can bring you back to the home page at anytime.
-- The neighborhood and contact page only has two navlinks because it doesn't contain the attration and plan section.
-- The contact page has a validation form which helps the user to send the message via emailjs to the client. This can help interact the user and client in better way.
-- Social Media Links in the footer opens up with a new blank page and links to an account.
+### Attraction Section
+- This section comes on the home page and as you scoll down you'll see the slider which displays all the images in a slide show which gets activated every 5s delay. 
+- In this carosel there is an left and right arrows which mannually function the carosel in either direction. 
+- There are buttons under the images which will jump to that image. 
 
-There were some other smaller changes that I decided to go ahead with I just felt made the project more aesthetically pleasing.
+### The Map Section
+- There is a map section which displays the map of the NYC with attractions being marked by the icons. 
+- These icons represent attractions, parks, sports, financial district, picnic area and the train station
+- As you zoom in the places and area along with the icon is displayed properly.
+
+### Footer Section
+- The footer section has the links to the social media and are hyperlinks which are links to there related pages.
+- The footer remains same across all the pages.
+### Neighborhood Page
+
+- On clicking on the Neighborhood link on the navbar on any pages which take you to the neighborhood page.
+- This pages provides only information about different neighborhoods in NY. 
+- There is an image related to the areas which has the information.
+
+### Contact Page
+- The contact page can be opened by clicking on the contact us on nav links.
+- This page contains a small and simple form which contains name, email and messages and a submit button.
+- By submitting your request an email is send to the admin with a message.
+- After successfully sending the email the form is reseted.
+- There are validations where the required fields are needed.
+and will display red or green color. The form will not be submitted if the required field have not been added.
+
 
 # **Surface Plane**
 
-### _Features present across the project_
-
-- Navbar - Responsive, toggles to a hamburger menu. Colored light grey for inactive pages and colored white for the currently active page. It have animation with the navlinks slide in when the navbar opens and the burger menu changes to a close button. The main logo in the left acts also as a link back to the home page.
-- Footer - There are social media hyperlinks which can direct you to the linked page for better feedback.
-- Large Hero images to deaw the user attention. All the images are bright and colorfull specially on the service page to intorduce a fun page interaction.
-- Dark background for the users to feel less strain on the eyes while reading and also help the images pop out.
-- Different information on boroghs with images and places to see in those boroghs have also been added to the neighborhood page.
-- Attraction which onclick takes the user to that section having a carousel slider. It slides with a every 2s as the page loads. There is also a next and prev button help to move back and forth. There are also indicator button which can take you straight to that image onclick.
-- Plan which onclick takes the user to that section which has google map of the New York City. There are Cluster Markers which point out the sightseeing places to be seen in all five boroughs. 
-- The contact page contains a simple form which can be submitted the traveler for feedback, more information about the travel options and links for the newsletter.
-
-### _Features to Implement_ :
+### Features to be added in future
 
 - Weather updator across all the pages which can tell the weather according to the location.
 - Places to stay and links to the hotel sites.
 - Flight destination using API.
+- I would like to add the location names in the map when vistiors hover over it.
+- I would like to add that if the visitors like the caresol image and want to visit that place then just by clicking it they should be directed to the map where that image is located and its information should display.
 
+### Issues and Resolutions
 
+- The buttons onclick noticing a small box appearing in the background. Tried to fix that but still I see the same problem.
+- The Carousel slides with a 2s delay and it has a little glitch which is noticed when the image is loading. There is a empty background between the sliding image. 
+- Map has a difficulty with loading since the placement of the script tag was in the wrong place after fixing it now its appearing fine.
+- The Map with icons display  - ![Map image](assets/images/map-error.jpg) seems too big tried reading through google map documentation but couldn't find the size for the icon. 
+- With the contact page the email which is submitted properly and comes to my email but it doesn't display any message or give a conformation. I can see my email in my account.
+ - ![email](assets/images/email.jpg)
+ - ![email](assets/images/email.js.jpg)
+- HTML validator indicates that the id of btn-carousel is used multiple times, tried fixing that but by changing the id tag to class tag the carousel slider don't function properly.
+- There is diplacement of anchor tag in the heading section which are links to different sections get disrupted with different media queries.
+- There is overflow of X noted on the media query 520px and lower fixed it by hidding that.
+- There are CSS validation errors which I am aware about because I think I have duplicated them in different media queries.
+- On the contact page with the Send message form input of text and errors are appearing. The script is also working, testing the email is being send but doing it from the site is not sending any email to the inbox. Tried to fix that with the help of my mentor also but still not able to understand the issue. 
+- The images on the neighborhoood page gets distorted with different size on the page and gets adjusted with the media query.
+- W3C Makrup Validator flagged up errors on improper placing the script tag. The tags were adjusted and porper placed.
+- W3C CSS validator presented with alot of errors and seeing alot of duplicated classes trying to fix those.
+- Social media links connected to the personal accounts.
+- Map shows the cluster Markers and everything with placement of 20 marker(locations) for the traveller to see.
 ### _Technologies Used_ :
+
+### Languages Used
 
 - [HTML](https://www.w3schools.com/)
 
@@ -186,6 +240,7 @@ There were some other smaller changes that I decided to go ahead with I just fel
 - [JavaScript](https://www.w3schools.com/)
   - used to scripts across the project the correct way.
 
+### Frameworks, Libraries, Programme and Resources Used  
 - [Bootstrap 4](https://getbootstrap.com/)
 
   - Used as the main frame work to make the prject responsive.
@@ -230,14 +285,14 @@ There were some other smaller changes that I decided to go ahead with I just fel
 
 - [Figma](https://figma.com/)
   - Used to creat the wireframes for the project.
+- [Stack Overflow](https://pt.stackoverflow.com/)
+    - General resources.
+- [Youtube](https://www.youtube.com/) 
+  - General resources.
+- Code Institute SLACK Community
+  - General resources
 
-## _Testing_
-
-**Testing User Stories from User Experience Design (UX) Section**
-
-User Story Testing
-
-#### _Further Testing_
+### Code Validation
 
 - The project was tested in the following browsers with success, Google Chrome, Microsoft Edge, Mozilla Firefox and Opera.
 - Projects was manually tested on Samsung Note 9, Samsung S9, Samsung TabA and Hp laptop 11 inch screen and Asus laptop and Hp Desktops.
@@ -268,21 +323,14 @@ I used W3C Markup Validator and W3C Validator to validate every page of the proj
 2. [W3C CSS Validator Result](http://www.css-validator.org/validator#errors)
 
 
-#### _Known Bugs and Fixes_
 
-- The buttons onclick noticing a small box appearing in the background. Tried to fix that but still I see the same problem.
-- The Carousel slides with a 2s delay and it has a little glitch which is noticed when the image is loading. There is a empty background between the sliding image. 
-- Map has a difficulty with loading since the placement of the script tag was in the wrong place after fixing it now its appearing fine.
-- HTML validator indicates that the id of btn-carousel is used multiple times, tried fixing that but by changing the id tag to class tag the carousel slider don't function properly.
-- There is diplacement of anchor tag in the heading section which are links to different sections get disrupted with different media queries.
-- There is overflow of X noted on the media query 520px and lower fixed it by hidding that.
-- There are CSS validation errors which I am aware about because I think I have duplicated them in different media queries.
-- On the contact page with the Send message form input of text and errors are appearing. The script is also working, testing the email is being send but doing it from the site is not sending any email to the inbox. Tried to fix that with the help of my mentor also but still not able to understand the issue. 
-- The images on the neighborhoood page gets distorted with different size on the page and gets adjusted with the media query.
-- W3C Makrup Validator flagged up errors on improper placing the script tag. The tags were adjusted and porper placed.
-- W3C CSS validator presented with alot of errors and seeing alot of duplicated classes trying to fix those.
-- Social media links connected to the personal accounts.
-- Map shows the cluster Markers and everything with placement of 20 marker(locations) for the traveller to see.
+## Testing
+
+**Testing User Stories from User Experience Design (UX) Section**
+
+User Story Testing
+
+
 ## _Deployment_
 
 **GitHub**
@@ -314,7 +362,8 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 1. Type git clone, and _paste_ the link you copied in step 3.
 1. Press _Enter_ to have the local clone created.
 
-## _Credits_
+
+## Credit
 
 **Code :**
 
@@ -326,7 +375,15 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 - [Murach's HTML5 and CSS3](https://www.murach.com/shop/murachs-html5-and-css3-4th-edition-detail)
   - the reference guide helping in detail understanding of the HTML and CSS concepts.
 
-**Content :**
+## Media
+
+  - Home page image :
+   thanks to [Pexel](https://www.pexels.com/)[Unsplash](https://unsplash.com/)
+  - Neighborhood page image :
+   thanks to [Pexel](https://www.pexels.com/) images of the New York City and all the boroughs
+  *Fully Responsive NavBar*
+  - thanks to  for the navbar[Dev Ed Youtuber](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)  
+## Acknowledgements
 
 - Wikipedia
   - helping understand the concepts of different codes, elements, attributes, CSS styling.
@@ -338,14 +395,9 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 - Academind (youtuber)
   - thanks to an youtuber for helping with bootstrap navbar making it responsive.
 - Thanks to [Emailjs](https://www.emailjs.com/) for providing the link to email and API.  
-- Images
-  _ Home page image :
-  _ thanks to [Pexel](https://www.pexels.com/)[Unsplash](https://unsplash.com/)
-   _ Neighborhood page image :
-  _ thanks to [Pexel](https://www.pexels.com/) images of the New York City and all the boroughs
-  *Fully Responsive NavBar*
-  thanks to  for the navbar[Dev Ed Youtuber](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)  
+-
   thanks to [tonny-reddington]from code institute (student) for sharing the code for email.js
-  I would like to take few seconds to thank my mentor and instructors who have put together all the videos the materials for helping all the students throught this journey.
+  - I would like to thank Richard L LuciusVH student in Code Institute for the inspiration.
+  - I would like to take few seconds to thank my mentor and instructors who have put together all the videos the materials for helping all the students throught this journey.
 
 ## Thank You
