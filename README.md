@@ -1,4 +1,7 @@
-# The-Big-Apple
+# The Big Apple
+
+## Aim/ Purpose
+
 NYC Travel site
 
 This is my second milestone project, Joy Travels
