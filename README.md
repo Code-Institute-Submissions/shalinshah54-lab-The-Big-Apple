@@ -211,7 +211,8 @@ and will display red or green color. The form will not be submitted if the requi
 - The buttons onclick noticing a small box appearing in the background. Tried to fix that but still I see the same problem.
 - The Carousel slides with a 2s delay and it has a little glitch which is noticed when the image is loading. There is a empty background between the sliding image. 
 - Map has a difficulty with loading since the placement of the script tag was in the wrong place after fixing it now its appearing fine.
-- The Map with icons display  - ![Map image](assets/images/map-error.jpg) seems too big tried reading through google map documentation but couldn't find the size for the icon. 
+- The Map with icons display 
+ - ![Map image](assets/images/map-error.jpg) seems too big tried reading through google map documentation but couldn't find the size for the icon. 
 - With the contact page the email which is submitted properly and comes to my email but it doesn't display any message or give a conformation. I can see my email in my account.
  - ![email](assets/images/email.jpg)
  - ![email](assets/images/email.js.jpg)
@@ -324,9 +325,10 @@ I used W3C Markup Validator and W3C Validator to validate every page of the proj
 
 
 
-## Testing
+## Testing 
 
-**Testing User Stories from User Experience Design (UX) Section**
+- Testing has an extented file attached [CLICK HERE TO VIEW](test.md)
+
 
 User Story Testing
 
