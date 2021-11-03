@@ -228,6 +228,18 @@ and will display red or green color. The form will not be submitted if the requi
 - W3C CSS validator presented with alot of errors and seeing alot of duplicated classes trying to fix those.
 - Social media links connected to the personal accounts.
 - Map shows the cluster Markers and everything with placement of 20 marker(locations) for the traveller to see.
+- One of the biggest issues that I am seeing is the layout keeps breaking and collapsing, tried to fix everything with different media queries but still seeing the same issues. The larger screen above 1400px it will display poor layout.
+- Anything at and around   
+     - 1400px
+     - 970px
+     - 831px
+     - 765px
+     - 650px
+     - 517px
+     - 450px
+     - 380px
+  
+  will work properly without any issues.
 ### _Technologies Used_ :
 
 ### Languages Used
