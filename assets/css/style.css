@@ -237,9 +237,9 @@ header {
      );
   position: absolute;
   top: 100px;
-  left: 100px;
+  left: 0px;
   right: 300px;
-  width: 60%;
+  width: 80%;
   height: 100vh;
   padding: 0;
   margin: 0;
@@ -790,8 +790,8 @@ a:active {
     position: absolute;
     top: 400px;
     right: 400px;
-    left: 149px;
-    width: 100%;
+    left: 112px;
+    width: 95%;
     height: 55vh;
     padding: 0;
     margin: 0;
