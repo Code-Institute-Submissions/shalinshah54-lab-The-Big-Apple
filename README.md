@@ -204,7 +204,9 @@ and will display red or green color. The form will not be submitted if the requi
 - Places to stay and links to the hotel sites.
 - Flight destination using API.
 - I would like to add the location names in the map when vistiors hover over it.
-- I would like to add that if the visitors like the caresol image and want to visit that place then just by clicking it they should be directed to the map where that image is located and its information should display.
+- I would like to add that if the visitors like the caresol image and want to visit that place then just by      clicking it they should be directed to the map where that image is located and its information should display.
+- For the future I would like to add some buttons in the plan section to let specific areas on the map be targeted by clicking on the button. There can be buttons for attractions, restuarants, bars, parks and train stations.
+
 
 ### Issues and Resolutions
 
