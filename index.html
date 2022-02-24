@@ -23,38 +23,47 @@
 </head>
 
 <body>
- 
+
   <!--NavBar-->
-  <header>
-    <a href="index.html"><img class="logo" src="assets/images/Logo.png" alt="logo" /></a>
-    <nav class="navbar">
-      <ul class="nav-links">
-        <li><a class="nav-items" href="index.html">Home</a></li>
-        <li><a class="nav-items" href="neighborhood.html">Neighborhood</a></li>
-        <li><a class="nav-items" href="contact.html">Contact Us</a></li>
-      </ul>
-      <!--Burger Menu-->
-      <div class="burger clostbtn">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark text-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/Logo.png" alt="The Big Apple">
+      </a>
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="toggleMobileMenu">
+        <ul class="navbar-nav">
+          <li>
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="neighborhood.html">Neighborhood</a>
+          </li>
+          <li>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
       </div>
     </nav>
-  </header>
+  </div>
+  <hr>
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-8 col-xl-10">
         <div class="container-main">
           <div class="card-body">
-              <h1 class="heading">The Big Apple</h1>
-              <h3 class="heading-title">City which never sleeps.</h3>
-              <p class="discribe">
-                Need family fun this summer come explore
-                <span>The New York City.</span> With endless history, diverse
-                ethnicity, different varieties of food, sightseeing, shopping
-                and know about our neighborhood.
-              </p>
-              <a class="btn-pl" href="#attraction">Plan Now</a>
+            <h1 class="heading">The Big Apple</h1>
+            <h3 class="heading-title">City which never sleeps.</h3>
+            <p class="discribe">
+              Need family fun this summer come explore
+              <span>The New York City.</span> With endless history, diverse
+              ethnicity, different varieties of food, sightseeing, shopping
+              and know about our neighborhood.
+            </p>
+            <a class="btn-pl" href="#attraction">Plan Now</a>
           </div>
         </div>
       </div>
@@ -62,12 +71,12 @@
   </div>
   <div class="row">
     <div class="col-sm-12 col-md-8 col-lg-8 col-xl-9">
-       <div class="img-fluid">
-          <img class="hero-img" src="assets/images/NYC.jpg" alt="NYC" />
-       </div>
-    </div>   
-  </div>     
- 
+      <div class="img-fluid">
+        <img class="hero-img" src="assets/images/NYC.jpg" alt="NYC" />
+      </div>
+    </div>
+  </div>
+
   <br />
 
   <main class="main-section">
@@ -142,19 +151,19 @@
         </div>
       </div>
     </section>
-  <!--Plan and Map section-->
-  <section id="plan">
-    <div class="container-sm-12 container-md-8 container-lg-10 container-xl-12 map-container">
-      <div class="row">
-        <div class="col-sm-12 col-md-8 col-lg-10 col-xl-10">
-          <h3 class="plan-title">Plan</h3>
-          <div class="plan-line"></div>
-          <div class="map" id="map">
+    <!--Plan and Map section-->
+    <section id="plan">
+      <div class="container-sm-12 container-md-8 container-lg-10 container-xl-12 map-container">
+        <div class="row">
+          <div class="col-sm-12 col-md-8 col-lg-10 col-xl-10">
+            <h3 class="plan-title">Plan</h3>
+            <div class="plan-line"></div>
+            <div class="map" id="map">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
   </main>
   <!--Social Media-->
   <footer>
@@ -178,18 +187,23 @@
       </div>
     </div>
   </footer>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-<script src="assets/script/map.js"></script>
-<script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZhHv0DXt7Uv4VI_VdzvtpPo6fX1e0-B0&callback=initMap"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="assets/script/script.js"></script>
-<script src="assets/script/email.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script
+    src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+  <script src="assets/script/map.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZhHv0DXt7Uv4VI_VdzvtpPo6fX1e0-B0&callback=initMap"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="assets/script/script.js"></script>
+  <script src="assets/script/email.js"></script>
 </body>
+
 </html>

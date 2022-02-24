@@ -18,6 +18,7 @@ body {
   position: relative;
   font-family: "Roboto", sans-serif;
 }
+
 /* The Hero Image */
 
 .hero-img {
@@ -29,92 +30,6 @@ body {
   bottom: 0;
   left: 163px;
   z-index: -10;
-}
-/*Nav bar */
-
-header {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding: 30px 5%;
-  z-index: 10;
-}
-
-.logo {
-  margin: 0 5%;
-  padding: 0 5%;
-  width: 100px;
-  height: 100px;
-}
-
-.navbar {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  text-transform: uppercase;
-  width: 100%;
-}
-
-.nav-links {
-  list-style: none;
-}
-
-.nav-links li {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 8px;
-}
-
-.nav-links .nav-items {
-  text-decoration: none;
-  color: rgba(194, 194, 194, 1);
-  text-shadow: 2px 2px rgba(2, 2, 2, 0.52);
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.nav-links .nav-items:hover {
-  color: rgba(255, 153, 0, 1);
-}
-
-.burger {
-  position: absolute;
-  top: 150px;
-  right: -16px;
-  display: none;
-}
-
-.burger div {
-  width: 35px;
-  height: 3px;
-  margin: 7px;
-  background-color: rgba(194, 194, 194, 1);
-  transition: all 0.5s ease;
-}
-
-.nav-active {
-  transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-.closebtn .line1 {
-  transform: rotate(-45deg) translate(-6px, 7px);
-}
-.closebtn .line2 {
-  opacity: 0;
-}
-.closebtn .line3 {
-  transform: rotate(45deg) translate(-6px, -9px);
 }
 
 /* contact us button */
@@ -833,10 +748,6 @@ a:active {
     margin: 0 5%;
     padding: 0 5%;
   }
-  .navbar {
-    font-size: 16px;
-    padding-left: 2px;
-  }
   
   .hero-img {
     width: 100%;
@@ -899,58 +810,7 @@ a:active {
     margin-top: 0px;
     z-index: 10;
   }
-  .nav-links {
-    position: absolute;
-    top: -71px;
-    right: -50px;
-    height: 100vh;
-    background-color: rgb(38, 38, 38);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-    z-index: 5;
-  }
-
-  .nav-links li {
-    opacity: 0;
-  }
-
-  .burger {
-    display: block;
-    position: absolute;
-    top: -16px;
-    right: -10px;
-    z-index: 10;
-    cursor: pointer;
-  }
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-
-  .closebtn .line1 {
-    transform: rotate(-45deg) translate(-6px, 7px);
-  }
-  .closebtn .line2 {
-    opacity: 0;
-  }
-  .closebtn .line3 {
-    transform: rotate(45deg) translate(-6px, -9px);
-  }
+  
 
   .btn {
     position: absolute;
@@ -1090,58 +950,7 @@ a:active {
   body {
     overflow-x: hidden;
   }
-  .nav-links {
-    position: absolute;
-    top: -71px;
-    right: -88px;
-    height: 100vh;
-    background-color: rgb(38, 38, 38);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 200%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-    z-index: 5;
-  }
-  .nav-links li {
-    opacity: 0;
-  }
-
-  .burger {
-    display: block;
-    position: absolute;
-    top: -16px;
-    right: -10px;
-    z-index: 10;
-    cursor: pointer;
-  }
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-
-  .closebtn .line1 {
-    transform: rotate(-45deg) translate(-6px, 7px);
-  }
-  .closebtn .line2 {
-    opacity: 0;
-  }
-  .closebtn .line3 {
-    transform: rotate(45deg) translate(-6px, -9px);
-  }
-
+  
   .hero-img {
     width: 80%;
     height: 100vh;
@@ -1276,58 +1085,7 @@ a:active {
   body {
     overflow-x: hidden;
   }
-  .nav-links {
-    position: absolute;
-    top: -71px;
-    right: -88px;
-    height: 100vh;
-    background-color: rgb(38, 38, 38);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 200%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-    z-index: 5;
-  }
-  .nav-links li {
-    opacity: 0;
-  }
-
-  .burger {
-    display: block;
-    position: absolute;
-    top: -16px;
-    right: -10px;
-    z-index: 10;
-    cursor: pointer;
-  }
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-
-  .closebtn .line1 {
-    transform: rotate(-45deg) translate(-6px, 7px);
-  }
-  .closebtn .line2 {
-    opacity: 0;
-  }
-  .closebtn .line3 {
-    transform: rotate(45deg) translate(-6px, -9px);
-  }
- 
+  
   .hero-img {
     width: 75%;
     height: 100vh;
@@ -1474,59 +1232,8 @@ a:active {
     overflow-x: hidden;
     position: relative;
     font-family: "Roboto", sans-serif;
-  }
-  .nav-links {
-    position: absolute;
-    top: -71px;
-    right: -88px;
-    height: 100vh;
-    background-color: rgb(38, 38, 38);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 200%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-    z-index: 5;
-  }
-  .nav-links li {
-    opacity: 0;
-  }
+  } 
 
-  .burger {
-    display: block;
-    position: absolute;
-    top: -16px;
-    right: -10px;
-    z-index: 10;
-    cursor: pointer;
-  }
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-
-  .closebtn .line1 {
-    transform: rotate(-45deg) translate(-6px, 7px);
-  }
-  .closebtn .line2 {
-    opacity: 0;
-  }
-  .closebtn .line3 {
-    transform: rotate(45deg) translate(-6px, -9px);
-  }
- 
   .hero-img {
     width: 75%;
     height: 100vh;
@@ -1697,57 +1404,6 @@ a:active {
     position: relative;
     font-family: "Roboto", sans-serif;
   }
-  .nav-links {
-    position: absolute;
-    top: -71px;
-    right: -88px;
-    height: 100vh;
-    background-color: rgb(38, 38, 38);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 200%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-    z-index: 5;
-  }
-  .nav-links li {
-    opacity: 0;
-  }
-
-  .burger {
-    display: block;
-    position: absolute;
-    top: -16px;
-    right: -10px;
-    z-index: 10;
-    cursor: pointer;
-  }
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-
-  .closebtn .line1 {
-    transform: rotate(-45deg) translate(-6px, 7px);
-  }
-  .closebtn .line2 {
-    opacity: 0;
-  }
-  .closebtn .line3 {
-    transform: rotate(45deg) translate(-6px, -9px);
-  }
  
   .hero-img {
     width: 75%;
@@ -1910,57 +1566,7 @@ a:active {
     position: relative;
     font-family: "Roboto", sans-serif;
   }
-  .nav-links {
-    position: absolute;
-    top: -71px;
-    right: -88px;
-    height: 100vh;
-    background-color: rgb(38, 38, 38);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 200%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-    z-index: 5;
-  }
-  .nav-links li {
-    opacity: 0;
-  }
-
-  .burger {
-    display: block;
-    position: absolute;
-    top: -16px;
-    right: -10px;
-    z-index: 10;
-    cursor: pointer;
-  }
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-
-  .closebtn .line1 {
-    transform: rotate(-45deg) translate(-6px, 7px);
-  }
-  .closebtn .line2 {
-    opacity: 0;
-  }
-  .closebtn .line3 {
-    transform: rotate(45deg) translate(-6px, -9px);
-  }
+  
   .hero-img {
     width: 65%;
     height: 100vh;
