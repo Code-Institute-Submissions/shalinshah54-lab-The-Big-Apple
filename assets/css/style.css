@@ -18,13 +18,65 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Navbar */
+
+
+
 /* The Hero Image */
 
 .hero-img {
-  position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   z-index: -10;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+/* main content on the home page */
+
+.card-body {
+  background: rgba(128, 128, 128, 0.644);
+}
+
+.heading {
+  font-family: "Reem Kufi", sans-serif;
+  text-align: center;
+  text-shadow: 5px 5px 10 grey;
+  margin: 5px 5px;
+  padding: 8px 12px;
+  color: rgba(255, 153, 0, 1);
+}
+
+.heading-title {
+  font-size: 1.05em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-align: center;
+  color: rgb(253, 253, 253);
+  margin-top: 0;
+}
+
+.NYC {
+  color: rgba(255, 153, 0, 1);
+}
+
+.btn-pl {
+  text-decoration: none;
+  color: rgba(255, 153, 0, 0.7);
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(38, 38, 38, 0.92);
+  transition: all 0.5s ease-in-out 0s;
+  z-index: 10;
+  
+}
+
+.btn-pl:hover {
+  text-decoration: none;
+  color: rgba(255, 153, 0, 0.7);
 }
 
 /* contact us button */
@@ -138,91 +190,8 @@ body {
   transform: scale(1.12);
 }
 
-/* main content on the home page */
-.card-body {
-  background: linear-gradient(
-    353deg,
-    rgba(196, 196, 196, 0.4) 11%,
-    rgba(55, 55, 55, 1) 73%
-     );
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  right: 300px;
-  width: 80%;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-}
 
-.container-main {
-  background-color: rgba(2, 2, 2, 0.52);
-  min-width: 30%;
-  height: 50%;
-  margin-left: 150px;
-  margin-right: 250px;
-  margin-top: 0;
-  padding: 0;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.842);
-  border-radius: 30px;
-}
 
-.card {
-  min-width: 100vw;
-  top: 10px;
-  right: 110px;
-  border: none;
-}
-
-.heading {
-  font-family: "Reem Kufi", sans-serif;
-  text-align: center;
-  margin: 5px 5px;
-  padding: 8px 12px;
-  color: rgba(255, 153, 0, 1);
-}
-
-.heading-title {
-  font-size: 1.05em;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  text-align: center;
-  color: rgb(253, 253, 253);
-  margin-top: 0;
-}
-
-.discribe {
-  font-size: 1em;
-  color: rgba(194, 194, 194, 1);
-  font-weight: 300;
-  text-align: center;
-  letter-spacing: 1px;
-}
-span {
-  color: rgba(194, 194, 194, 0.7);
-}
-
-.btn-pl {
-  text-decoration: none;
-  color: rgba(2, 2, 2, 0.863);
-  width: 550px;
-  height: 30px;
-  margin-top: 0px;
-  margin-left: 150px;
-  padding: 5px 50px;
-  border-radius: 20px;
-  box-shadow: 2px 4px 10px rgba(38, 38, 38, 0.92);
-  background: rgba(255, 153, 0, 1);
-  transition: all 0.5s ease-in-out 0s;
-  z-index: 10;
-}
-
-.btn-pl:hover {
-  text-decoration: none;
-  color: rgba(38, 38, 38, 0.842);
-  background: rgba(255, 153, 0, 0.7);
-  transform: scale(1.12);
-}
 
 /* attraction scroll down page  */
 .main-section {
