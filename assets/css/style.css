@@ -49,13 +49,12 @@ body {
   color: rgba(255, 153, 0, 1);
 }
 
-.heading-title {
-  font-size: 1.05em;
-  letter-spacing: 2px;
-  word-spacing: 2px;
+.text-content {
+  font-family: "Reem Kufi", sans-serif;
   text-align: center;
-  color: rgb(253, 253, 253);
-  margin-top: 0;
+  text-shadow: 5px 5px 10 grey;
+  margin: 5px 5px;
+  padding: 8px 12px;
 }
 
 .NYC {
@@ -64,21 +63,112 @@ body {
 
 .btn-pl {
   text-decoration: none;
-  color: rgba(255, 153, 0, 0.7);
-  width: 100px;
+  color: black;
+  background-color: rgba(255, 153, 0, 1);
+  width: 200px;
   height: 30px;
   border-radius: 10px;
   box-shadow: 2px 4px 10px rgba(38, 38, 38, 0.92);
   transition: all 0.5s ease-in-out 0s;
-  z-index: 10;
-  
+  z-index: 10; 
 }
 
 .btn-pl:hover {
   text-decoration: none;
-  color: rgba(255, 153, 0, 0.7);
+  color: black;
 }
 
+/* attraction scroll down page  */
+
+.main-section {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+
+#attraction,
+#plan {
+  margin-top: 20px;
+  width: 100%;
+  height: 80vh;
+}
+
+.att-title {
+  color: rgba(194, 194, 194, 1);
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
+}
+
+.att-line {
+  width: 100px;
+  height: 3px;
+  border-radius: 18px;
+  background-color: rgba(255, 153, 0, 1);
+}
+
+.carousel {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  right: 0;
+  min-height: 35vh;
+}
+.carousel-indicators {
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+.slider-name {
+  color: rgb(253, 253, 253);
+  text-shadow: 5px -5px 10px rgba(2, 2, 2, 0.863);
+  font-size: 2em;
+}
+
+#btn-carousel {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 900px;
+  background-color: rgba(255, 153, 0, 1);
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+#btn-carousel:hover {
+  box-shadow: 5px 5px 10px rgba(194, 194, 194, 1);
+}
+.prevbtn {
+  width: 70px;
+  height: 60px;
+  border-radius: 0 10% 10% 0;
+  background-color: rgb(150, 150, 150);
+  border: 2px solid rgb(38, 38, 38);
+  box-shadow: none;
+  bottom: 0;
+  margin-top: 220px;
+  margin-left: 0;
+}
+
+.nextbtn {
+  width: 70px;
+  height: 60px;
+  border-radius: 10% 0 0 10%;
+  background-color: rgb(150, 150, 150);
+  border: 2px solid rgb(38, 38, 38);
+  box-shadow: none;
+  bottom: 0;
+  margin-top: 220px;
+  margin-right: 0;
+}
 /* contact us button */
 #contact {
   position: relative;
@@ -193,108 +283,7 @@ body {
 
 
 
-/* attraction scroll down page  */
-.main-section {
-  height: 222vh;
-  width: 100%;
-  position: relative;
-  top: 620px;
-}
 
-#attraction,
-#plan {
-  position: relative;
-  flex-direction: column;
-  margin-top: 231px;
-  width: 80%;
-  height: 100vh;
-}
-
-.att-title {
-  color: rgba(194, 194, 194, 1);
-  position: absolute;
-  left: 100px;
-  font-size: 1.5em;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
-}
-
-.att-line {
-  position: absolute;
-  top: 50px;
-  left: 100px;
-  width: 100px;
-  height: 3px;
-  border-radius: 18px;
-  background-color: rgba(255, 153, 0, 1);
-}
-
-.carousel {
-  position: absolute;
-  top: 100px;
-  left: 200px;
-  right: 0;
-  min-height: 35vh;
-}
-.carousel-indicators {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 15;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding-left: 0;
-  margin-right: 15%;
-  margin-left: 15%;
-  list-style: none;
-}
-.slider-name {
-  color: rgb(253, 253, 253);
-  text-shadow: 5px -5px 10px rgba(2, 2, 2, 0.863);
-  font-size: 2em;
-}
-
-#btn-carousel {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  top: 900px;
-  background-color: rgba(255, 153, 0, 1);
-  border: none;
-  box-shadow: none;
-  margin-bottom: 0px;
-  margin-right: 10px;
-}
-#btn-carousel:hover {
-  box-shadow: 5px 5px 10px rgba(194, 194, 194, 1);
-}
-.prevbtn {
-  width: 70px;
-  height: 60px;
-  border-radius: 0 10% 10% 0;
-  background-color: rgb(150, 150, 150);
-  border: 2px solid rgb(38, 38, 38);
-  box-shadow: none;
-  bottom: 0;
-  margin-top: 220px;
-  margin-left: 0;
-}
-
-.nextbtn {
-  width: 70px;
-  height: 60px;
-  border-radius: 10% 0 0 10%;
-  background-color: rgb(150, 150, 150);
-  border: 2px solid rgb(38, 38, 38);
-  box-shadow: none;
-  bottom: 0;
-  margin-top: 220px;
-  margin-right: 0;
-}
 
 /* plan scroll down page */
 #plan {
