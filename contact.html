@@ -19,22 +19,30 @@
 
 <body>
   <!--NavBar-->
-  <header>
-    <a href="index.html"><img class="logo" src="assets/images/Logo.png" alt="logo" /></a>
-    <nav class="navbar">
-      <ul class="nav-links">
-        <li><a class="nav-items" href="index.html">Home</a></li>
-        <li><a class="nav-items" href="neighborhood.html">Neighborhood</a></li>
-        <li><a class="nav-items" href="contact.html">Contact Us</a></li>
-      </ul>
-      <!--Burger Menu-->
-      <div class="burger clostbtn">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-right text-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/Logo.png" alt="The Big Apple">
+      </a>
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+        aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="toggleMobileMenu">
+        <ul class="navbar-nav text-center">
+          <li>
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="neighborhood.html">Neighborhood</a>
+          </li>
+          <li>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
     </nav>
-  </header>
+  </div>
+  <br>
   <!--Contact page-->
   <section id="contact">
     <div class="container">

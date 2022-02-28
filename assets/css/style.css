@@ -95,7 +95,6 @@ br {
 
 #attraction,
 #plan {
-  padding-top: 100px;
   width: 100%;
   height: 100vh;
 }
@@ -158,10 +157,10 @@ br {
 
 /* plan scroll down page */
 
-.plan {
-  padding-top: 20px;
+#plan {
+  padding-top: 100px;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 }
 
 .plan-title {
@@ -178,10 +177,12 @@ br {
   border-radius: 18px;
   background-color: rgba(255, 153, 0, 1);
 }
+
 /* maps */
+
 .map {
   width: 100%;
-  height: 100%;
+  height: 50vh;
   margin-top: 20px;
   border: 2px solid rgb(92, 92, 92);
   border-radius: 5px;
@@ -190,9 +191,6 @@ br {
 }
 #marker-tooltip {
   display: none;
-  position:absolute;
-  width: 300px;
-  height: 200px;
   background-color: #ccc;
   margin: 15px;
 }
@@ -203,7 +201,6 @@ br {
   position: absolute;
   color: rgba(255, 153, 0, 1);
   text-transform: capitalize;
-  
 }
 
 #map-filters p {
@@ -211,10 +208,8 @@ br {
   text-align: center;
 }
 
-
-
 #map-icons {
-  padding: 2.5rem;
+  padding: 1.5rem;
   margin: 0.5rem;
   display: table-column;
   justify-content: space-between;
@@ -235,6 +230,68 @@ br {
   cursor: pointer;
 }
 
+
+/* Social Media */
+
+.social {
+  height: 50vh;
+  margin-top: 750px;
+}
+.social-title {
+  color: rgba(194, 194, 194, 1);
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
+}
+
+.social-line {
+  width: 100px;
+  height: 3px;
+  border-radius: 18px;
+  background-color: rgba(255, 153, 0, 1);
+}
+
+.socialmedialinks {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.socialmedialinks li {
+  list-style: none;
+  padding: 10px 40px;
+}
+
+.socialmedialinks li a img {
+  width: 52px;
+  height: 52px;
+  margin-right: 5px;
+  border-radius: 30%;
+  text-align: center;
+  background-color: rgba(194, 194, 194, 1);
+  transition: all 0.5s ease-in;
+}
+
+.socialmedialinks li a img:hover {
+  background-color: rgba(255, 153, 0, 1);
+  border: 3px solid rgba(2, 2, 2, 0.794);
+  box-shadow: 2px -2px 5px rgba(194, 194, 194, 1);
+}
+
+a:active {
+  background-color: rgba(255, 153, 0, 1);
+  border: 3px solid rgba(2, 2, 2, 0.794);
+  box-shadow: 2px -2px 5px rgba(194, 194, 194, 1);
+}
+
+.copyright {
+  color: rgba(194, 194, 194, 1);
+  font-size: 0.8em;
+  margin-top: 0;
+}
 /* contact us button */
 
 #contact {
@@ -354,74 +411,7 @@ br {
 
 
 
-/* Social Media */
-.social-title {
-  color: rgba(194, 194, 194, 1);
-  position: absolute;
-  top: 550px;
-  left: 100px;
-  font-weight: 600;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  text-shadow: 4px 3px 5px rgba(2, 2, 2, 0.863);
-}
 
-.social-line {
-  position: absolute;
-  top: 595px;
-  left: 100px;
-  width: 100px;
-  height: 3px;
-  border-radius: 18px;
-  background-color: rgba(255, 153, 0, 1);
-}
-
-.socialmedialinks {
-  position: absolute;
-  top: 625px;
-  left: 100px;
-  width: 300px;
-  height: 100px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.socialmedialinks li {
-  list-style: none;
-  padding: 0 10px;
-}
-
-.socialmedialinks li a img {
-  width: 52px;
-  height: 52px;
-  margin-right: 5px;
-  border-radius: 30%;
-  text-align: center;
-  background-color: rgba(194, 194, 194, 1);
-  transition: all 0.5s ease-in;
-}
-
-.socialmedialinks li a img:hover {
-  background-color: rgba(255, 153, 0, 1);
-  border: 3px solid rgba(2, 2, 2, 0.794);
-  box-shadow: 2px -2px 5px rgba(194, 194, 194, 1);
-}
-
-a:active {
-  background-color: rgba(255, 153, 0, 1);
-  border: 3px solid rgba(2, 2, 2, 0.794);
-  box-shadow: 2px -2px 5px rgba(194, 194, 194, 1);
-}
-
-.copyright {
-  color: rgba(194, 194, 194, 1);
-  position: absolute;
-  top: 720px;
-  left: 100px;
-  font-size: 0.8em;
-  margin-top: 0;
-}
 
 /* neighborhood page */
 

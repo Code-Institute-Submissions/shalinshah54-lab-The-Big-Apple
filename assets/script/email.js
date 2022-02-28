@@ -3,7 +3,7 @@ function sendMail(contactForm) {
   emailjs.send("the-Big-Apple","template_tlfrord", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "from_message": contactForm.message.value // const for the emailjs
+        "message": contactForm.message.value // const for the emailjs
       })
       .then(
         function (response) {
