@@ -118,17 +118,20 @@ This project was required to be totally responsive, and mobile friendly therefor
   - iPhone X
   - iPad
   - iPad pro
-  - Galaxy Fold
 
 I used W3C Markup Validator and W3C Validator to validate every page of the project to ensure there were no syntax errors in the project.
 
-1. [Markup validator Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html)
+1. [Markup validator Result](assets/images/markup_validation.png)
 
-   1. [home page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html#textarea)
+   1. [home page Result](assets/images/index_validation.png)
 
-   1. [neighborhood page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html#textarea)
+   1. [neighborhood page Result](assets/images/neigborhood_validation.png)
 
-   1. [contact page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2F5500-shalinshah54lab-thebigap-2k7otsd7sl4.ws-us34.gitpod.io%2Fcontact.html#textarea)
+   1. [contact page Result](assets/images/contact_validation.png)
 
 2. [W3C CSS Validator Result](assets/images/css_validation.png)
+
+3. JavaScript Validation
+    1. [JSHint emails](assets/images/emailjs_validation.png)
+    2. [JSHint maps](assets/images/mapjs_validation.png)
 
