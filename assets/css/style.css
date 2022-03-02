@@ -96,7 +96,7 @@ br {
 
 #attraction {
   width: 100%;
-  height: 110vh;
+  height: 120vh;
 }
 
 .att-title {
@@ -421,10 +421,8 @@ a:active {
 
 @media screen and (max-width: 360px){
 
-  #attraction,
-  #plan {
+  #attraction {
   width: 100%;
-  height: 80vh;
   }  
   #plan {
     height: 60vh;
@@ -467,7 +465,6 @@ a:active {
   /* home page  */
   #attraction{
   width: 100%;
-  height: 100vh;
   }  
   #plan {
     height: 70vh;
@@ -569,7 +566,6 @@ a:active {
    /* home page  */
  #attraction {
    width: 100%;
-   height: 80vh;
    }  
 #plan {
   height: 60vh;
@@ -672,7 +668,6 @@ a:active {
   /* home page  */
 #attraction {
   width: 100%;
-  height: 90vh;
   }  
 #plan {
    width: 100%;
@@ -775,7 +770,6 @@ a:active {
   /* home page  */
 #attraction {
   width: 100%;
-  height: 65vh;
   }  
 #plan {
    width: 100%;
@@ -874,17 +868,18 @@ a:active {
 }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1140px) {
   /* home page  */
 #attraction {
   width: 100%;
+  height: 55vh;
   }  
 #plan {
    width: 100%;
 }
 .social {
   height: 20vh;
-  margin-top: 855px;
+  margin-top: 555px;
 }
 .social-title {
   font-size: 25px;
@@ -979,7 +974,6 @@ a:active {
   /* home page  */
 #attraction {
   width: 100%;
-  height: 105vh;
 }
 #plan {
    width: 100%;
@@ -987,7 +981,7 @@ a:active {
 }
 .social {
   height: 20vh;
-  margin-top: 850px;
+  margin-top: 950px;
 }
 .social-title {
   font-size: 25px;
@@ -1083,7 +1077,6 @@ a:active {
   /* home page  */
 #attraction {
   width: 100%;
-  height: 100vh;
   }  
 #plan {
    width: 100%;
@@ -1091,7 +1084,7 @@ a:active {
 }
 .social {
   height: 20vh;
-  margin-top: 850px;
+  margin-top: 950px;
 }
 .social-title {
   font-size: 25px;
