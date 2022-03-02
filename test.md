@@ -128,7 +128,7 @@ I used W3C Markup Validator and W3C Validator to validate every page of the proj
 
    1. [neighborhood page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html#textarea)
 
-   1. [contact page Result]()
+   1. [contact page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2F5500-shalinshah54lab-thebigap-2k7otsd7sl4.ws-us34.gitpod.io%2Fcontact.html#textarea)
 
-2. [W3C CSS Validator Result](http://www.css-validator.org/validator#errors)
+2. [W3C CSS Validator Result](assets/images/css_validation.png)
 
