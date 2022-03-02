@@ -96,7 +96,7 @@ br {
 
 #attraction {
   width: 100%;
-  height: 145vh;
+  height: 150vh;
 }
 
 .att-title {
@@ -162,6 +162,7 @@ br {
 #plan {
   width: 100%;
   height: 90vh;
+  margin-top: 100px;
 }
 
 .plan-title {
@@ -305,13 +306,13 @@ a:active {
   font-weight: 700;
   text-align: start; 
   margin-top: 75px;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .para {
   color: rgb(150, 150, 150);
   font-weight: 700;
-  font-size: 50px;
+  font-size: 18px;
   text-align: inherit;
 }
 
@@ -320,7 +321,7 @@ a:active {
 #contact {
   padding: 80px;
   width: 100%;
-  height: 115vh;
+  height: 145vh;
   border: 8px solid rgba(0, 0, 0, 0.842);
   border-radius: 20px;
   box-shadow: 5px -5px 20px rgb(170, 170, 170);
@@ -449,16 +450,45 @@ a:active {
 }
 
 .img-box {
-  margin: 85px 10px;
+  margin: 25px 10px;
 }
 
 .text {
-  font-size: 15px;
+  font-size: 18px;
   left: 0;
 }
 
 .para {
-  font-size: 8px;
+  font-size: 12px;
+}
+
+
+/* contact us button */
+
+#contact {
+  padding: 80px;
+  width: 100%;
+  height: 135vh;
+  border: 8px solid rgba(0, 0, 0, 0.842);
+  border-radius: 20px;
+  box-shadow: 5px -5px 20px rgb(170, 170, 170);
+}
+
+.input-box {
+  height: 80px;
+  width: 90%;
+  color: rgba(194, 194, 194, 1);
+  background-color: transparent;
+  margin: 4px;
+  padding: 2px;
+}
+#text-box {
+  height: 80px;
+  width: 90%;
+  background-color: transparent;
+  color: rgba(194, 194, 194, 1);
+  margin: 4px;
+  padding: 22px;
 }
 }
 
@@ -491,16 +521,16 @@ a:active {
 }
 
 .img-box {
-  margin: 85px 10px;
+  margin: 25px 10px;
 }
 
 .text {
-  font-size: 15px;
+  font-size: 18px;
   left: 0;
 }
 
 .para {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 /* contact page */
@@ -592,16 +622,16 @@ a:active {
  }
  
  .img-box {
-   margin: 85px 10px;
+   margin: 25px 10px;
  }
  
  .text {
-   font-size: 15px;
+   font-size: 18px;
    left: 0;
  }
  
  .para {
-   font-size: 8px;
+   font-size: 12px;
  }
  
  /* contact page */
@@ -698,12 +728,12 @@ a:active {
 }
 
 .text {
-  font-size: 15px;
+  font-size: 20px;
   left: 0;
 }
 
 .para {
-  font-size: 8px;
+  font-size: 18px;
 }
 
 /* contact page */
@@ -800,12 +830,12 @@ a:active {
 }
 
 .text {
-  font-size: 15px;
+  font-size: 20px;
   left: 0;
 }
 
 .para {
-  font-size: 8px;
+  font-size: 18px;
 }
 
 /* contact page */
@@ -902,19 +932,19 @@ a:active {
 }
 
 .text {
-  font-size: 15px;
+  font-size: 20px;
   left: 0;
 }
 
 .para {
-  font-size: 8px;
+  font-size: 18px;
 }
 
 /* contact page */
 
 #contact {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   border: 8px solid rgba(0, 0, 0, 0.842);
   border-radius: 20px;
   box-shadow: 5px -5px 20px rgb(170, 170, 170);
@@ -1004,12 +1034,12 @@ a:active {
 }
 
 .text {
-  font-size: 50px;
+  font-size: 20px;
   left: 0;
 }
 
 .para {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 /* contact page */
@@ -1107,12 +1137,12 @@ a:active {
 }
 
 .text {
-  font-size: 50px;
+  font-size: 20px;
   left: 0;
 }
 
 .para {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 /* contact page */
