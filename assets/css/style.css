@@ -311,7 +311,7 @@ a:active {
 .para {
   color: rgb(150, 150, 150);
   font-weight: 700;
-  font-size: 30px;
+  font-size: 50px;
   text-align: inherit;
 }
 
@@ -1004,12 +1004,12 @@ a:active {
 }
 
 .text {
-  font-size: 15px;
+  font-size: 50px;
   left: 0;
 }
 
 .para {
-  font-size: 8px;
+  font-size: 25px;
 }
 
 /* contact page */
@@ -1107,12 +1107,12 @@ a:active {
 }
 
 .text {
-  font-size: 15px;
+  font-size: 50px;
   left: 0;
 }
 
 .para {
-  font-size: 8px;
+  font-size: 25px;
 }
 
 /* contact page */
