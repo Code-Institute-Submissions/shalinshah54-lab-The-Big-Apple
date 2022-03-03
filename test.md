@@ -24,10 +24,13 @@
 
 ## Responsiveness
 This project was required to be totally responsive, and mobile friendly therefore I decided to use Bootstrap as my main framework for it's cut down components that result in a clean, uncluttered view and minimize to add custom styles. Testing was done using dev-tool during build process, and also a final test of the entire website was done using Android phone and iphone to check its responsives.
-- Page was responsive overall and no major issue noticed however here was slightly issue with excess whitespace above and below footer while viewing on Android phone and specially with the card with information on the home page which collapes as the screen size changes and the carosel on the large devices the left and right buttons are places in the left and right center as the screen on medium and small devices it moves down to the bottom part of the images.
-- The responsiveness of the navbar changes to a slide nav at 811px and the burger menu appears. The burger menu transforms to a close button.
-- The carosel is responsive as the page loads will slide every 5s will change. And can be manually operated.
+- Page was responsive overall
+- The card with information on the home page has been fixed on the top of the page which displays the information as soon as the user opens the site.
+- There is a plan now button which can take the user to the attraction section where there is a carousel displaying the images of the different areas of New Yor City. 
+- The responsiveness of the navbar changes to a slide nav at 768px and the menu appears.
+- The carousel is responsive as the page loads will slide every 2s will change. And can be manually operated.
 - The Map is responsive with the icon added for the users to specifically see the places.
+- On the map the icons on hovering display location name and upon clicking it will appear an infowindow which will show the location name and can be closed by the close icon.
 - The contact page has a form which can be filled out by a user and send it responsively to the admin and the user can be contacted back.
 
 
@@ -36,10 +39,9 @@ This project was required to be totally responsive, and mobile friendly therefor
 - The navbar is located on the top of all pages which contains three links, which are Home, Neighborhood and Contact Us.
 - All the links are working properly  across all the pages.
 - There is a logo of Joy Travels which is a direct link to the home page from any other pages.
-- At 811px the navbar changes to a sidenav which is fully functional from the right side. There is a burger menu which appears on the top right corner. 
-- The burger menu on click will open the sidenav which will slide in from the right covering the whole page.
-- Once the sidenav opens the navlinks have an animation of transition which slowly comes in. Using JavaScript the links can be added and removed without changing the functionallity of navbar.
-- On clicking on the burger menu when the sidenav opens the menu will tranform to a close button. And on clicking on the close button it will transform back to burger menu.
+- At 768px the navbar changes to a menu and on clicking on it will allow the nav links to appear by sliding the section down.
+- The Nav links are displayed in the center of the page.
+- On clicking the menu button once again will close the menu.
 
 ## Home page
 
@@ -49,22 +51,24 @@ This project was required to be totally responsive, and mobile friendly therefor
 - The card with the content collapses as it changes the page size 
 ![image-card](assets/images/card-error.jpg)
 - This was debugged by changing the CSS `.card-body` which was used across all the media query at
-     - 1400px
-     - 970px
-     - 831px
-     - 765px
-     - 650px
-     - 517px
-     - 450px
+     - 1920px
+     - 1645px
+     - 1140px
+     - 928px
+     - 768px
+     - 414px
      - 380px
+     - 360px
 
-     this is fixed making few changes to the CSS property.
+   this is fixed by placing the card on the top of the hero image. ![image-card](assets/images/header.png)
 
 #### Attraction Section
 
 - Once the page loads the carosel starts the slider which works using bootstrap JS and has 5s delay. There are manual buttons to move the carosel. ![image-card](assets/images/carosel-button.jpg)
 - There is a left and right arrow button and there is a dot under the image which provides the vistitor to directly guide them to the perticular image.
 - Issue is on larger screen the buttons appear on the image. But as the screen size changes the buttons collapse down in the lower part of the carosel.
+- This is fixed by changing few bootstrap icons.
+![image-card](assets/images/carousel2.png)
 
 #### Plan Section
 - On the home page under the attraction there is plan section which displays the map which was taken using google api which is credentialed and functioning properly.
@@ -74,6 +78,8 @@ This project was required to be totally responsive, and mobile friendly therefor
 ![map](assets/images/map-img1.jpg)
 - After fixing the bug 
 ![map](assets/images/map-img2.jpg)
+- Now fixing it again to to make the map look better.
+![map](assets/images/map_with_icon.png)
 
 ### Footer Section
 - In the footer section there are social media links which are links to the personal account. 

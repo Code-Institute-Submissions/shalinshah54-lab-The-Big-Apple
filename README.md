@@ -174,13 +174,16 @@ There are some differences from the wireframes to the project,
 - There are buttons under the images which will jump to that image. 
 
 ### The Map Section
-- There is a map section which displays the map of the NYC with attractions being marked by the icons. 
+- There is a map section which displays the map of the NYC with attractions being marked by the icons.
+- There is a little text under the plan header which says that which ever location are highlighted are the places available to see in New York City.
+- On clicking on the icon a infowindow will open up and can display the name of the location and can be closed by the clicking on the x.
 - These icons represent attractions, parks, sports, financial district, picnic area and the train station
 - As you zoom in the places and area along with the icon is displayed properly.
 
 ### Footer Section
 - The footer section has the links to the social media and are hyperlinks which are links to there related pages.
 - The footer remains same across all the pages.
+
 ### Neighborhood Page
 
 - On clicking on the Neighborhood link on the navbar on any pages which take you to the neighborhood page.
@@ -218,26 +221,25 @@ and will display red or green color. The form will not be submitted if the requi
 - With the contact page the email which is submitted properly and comes to my email but it doesn't display any message or give a conformation. I can see my email in my account.
  - ![email](assets/images/email.jpg)
  - ![email](assets/images/email.js.jpg)
-- HTML validator indicates that the id of btn-carousel is used multiple times, tried fixing that but by changing the id tag to class tag the carousel slider don't function properly.
-- There is diplacement of anchor tag in the heading section which are links to different sections get disrupted with different media queries.
-- There is overflow of X noted on the media query 520px and lower fixed it by hidding that.
+- HTML validator indicates that the id of btn-carousel is used multiple times, tried fixing that but by changing the id tag to different id name the carousel slider is functioning properly.
 - There are CSS validation errors which I am aware about because I think I have duplicated them in different media queries.
+- All the CSS validation have been solved and the validation is displays no errors.
 - On the contact page with the Send message form input of text and errors are appearing. The script is also working, testing the email is being send but doing it from the site is not sending any email to the inbox. Tried to fix that with the help of my mentor also but still not able to understand the issue. 
-- The images on the neighborhoood page gets distorted with different size on the page and gets adjusted with the media query.
+- This contact page send button presented with a console error and that was fixed by a typo error from the html to the script.
 - W3C Makrup Validator flagged up errors on improper placing the script tag. The tags were adjusted and porper placed.
-- W3C CSS validator presented with alot of errors and seeing alot of duplicated classes trying to fix those.
+- W3C CSS validator presented with alot of errors and seeing alot of duplicated classes and all the classes have been fixed.
 - Social media links connected to the personal accounts.
 - Map shows the cluster Markers and everything with placement of 20 marker(locations) for the traveller to see.
 - One of the biggest issues that I am seeing is the layout keeps breaking and collapsing, tried to fix everything with different media queries but still seeing the same issues. The larger screen above 1400px it will display poor layout.
 - Anything at and around   
-     - 1400px
-     - 970px
-     - 831px
-     - 765px
-     - 650px
-     - 517px
-     - 450px
+     - 1920px
+     - 1645px
+     - 1140px
+     - 928px
+     - 768px
+     - 414px
      - 380px
+     - 360px
   
   will work properly without any issues.
 ### _Technologies Used_ :
@@ -300,10 +302,13 @@ and will display red or green color. The form will not be submitted if the requi
 
 - [Figma](https://figma.com/)
   - Used to creat the wireframes for the project.
+
 - [Stack Overflow](https://pt.stackoverflow.com/)
     - General resources.
+
 - [Youtube](https://www.youtube.com/) 
   - General resources.
+
 - Code Institute SLACK Community
   - General resources
 
@@ -327,15 +332,15 @@ and will display red or green color. The form will not be submitted if the requi
 
 I used W3C Markup Validator and W3C Validator to validate every page of the project to ensure there were no syntax errors in the project.
 
-1. [Markup validator Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html)
+1. [Markup validator Result](assets/images/markup_validation.png)
 
-   1. [home page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html#textarea)
+   1. [home page Result](assets/images/index_validation.png)
 
-   1. [neighborhood page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html#textarea)
+   1. [neighborhood page Result](assets/images/neigborhood_validation.png)
 
-   1. [contact page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshalinshah54-lab.github.io%2FThe-Big-Apple%2Findex.html#textarea)
+   1. [contact page Result](assets/images/contact_validation.png)
 
-2. [W3C CSS Validator Result](http://www.css-validator.org/validator#errors)
+2. [W3C CSS Validator Result](assets/images/css_validation.png)
 
 
 
